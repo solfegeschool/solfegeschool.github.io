@@ -826,7 +826,7 @@ body {
 }
 @media (min-width: 768px) {
 	.news {
-		min-height: 300px;
+		min-height: 350px;
 	}
 	.newsHeader {
 		top: 100px;
@@ -1706,6 +1706,7 @@ input[type=checkbox]:checked ~ event-item {
 .event-detail,
 .news-detail,
 .course-detail { font-size: 18px; }
+
 }
 
 @media (min-width: 1200px) {
