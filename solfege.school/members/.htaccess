@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile .htpasswd
+AuthName "Pages restricted to Solfege School members only"
+Require valid-user
