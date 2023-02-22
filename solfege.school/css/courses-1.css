@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+.course_bg {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #000000;
+    background-image: url("../img/course/courseBGImage.jpg");
+	background-position: center;
+	background-attachment: fixed;
+}
+.courseTitle {
+	font-size: 30px;
+	font-family: Arial, JPFont;
+}
+.paddingShowBG {
+	height: 200px;
+}
+@media (min-width: 768px) {
+	.courseTitle {
+		font-size: 45px;
+	}
+	.paddingShowBG {
+		height: 400px;
+	}
+}
+.navibar {
+  background-color: transparent;
+}
+.photoTxt {
+  font-family: Arial, "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+  font-size: 12px;
+  color: #0e5691;
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: right;
+  line-height: 12px;
+  margin-right: 5px;
+}
+.course-detail a {
+  text-decoration: none;
+  color: inherit;
+}
+.itemTitle {
+	font-family: Arial, JPFont;
+	color: #1c1c1c;
+	font-weight: bold;
+	border-bottom: solid 1px #777777;
+	border-left: solid 10px #0e5691;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.courseInfo {
+	color: #777777;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.bg_gris {
+	background-color: #dddddd;
+	padding: 10px;
+}
+.commentSqr {
+	quotes: '“' '”';
+	padding: 50px;
+}
+.commentSqr:before {
+    display: block;
+    font-size: 100px;
+    margin: -60px 10px;
+    font-family: arial;
+    color: #cc1111;
+    content: open-quote;
+}
+.commentSqr:after {
+    display: block;
+    font-size: 100px;
+    margin: -10px 5px;
+    float: right;
+    font-family: arial;
+    color: #cc1111;
+    content: close-quote;
+}
+.applyBtn {
+    background-color: #cc1111;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.courseSq {
+	background-color: #ffffff;
+	padding: 15px;
+	color: #000000;
+	font-family: inherit;
+	border: solid 2px #cc1111;
+	border-radius: 15px;
+}
+.coursePhoto {
+	position: relative;
+	margin: auto;
+	width: 400px;
+	text-align: center;
+	display: inline-block;
+	border: solid 2px #0e5691;
+	padding: 3px;
+}
+.course-detail ul {
+	margin-left: 20px;
+}
+.sumTxt {
+	color: #000000;
+	font-weight: bold;
+}
+.sumTxt::before {
+	content: '\201c';
+}
+.sumTxt::after {
+	content: '\201d';
+}
+.detailTxt {
+	color: #000000;
+}
+
+/* footer */
+.courseFooter {
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  bottom: 0;
+  height: 150px;
+  padding: 20px 10px;
+}
+/* responsive design */
+@media (max-width: 767px) {
+	.course_bg {
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-position: buttom;
+	}
+}
+@media (min-width: 768px) {
+	.course_bg {
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
