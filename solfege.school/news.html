@@ -1,19 +1,1085 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
+	<!-- Solfege School Ver. 09 Mar 2018 By // -->
 	<head>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Solfege School</title>
+		<link rel="icon" type="image/png" href="./img/logoTransRed2.png" />
+		<link rel="stylesheet" href="./css/common.css?v=1.1" />
+		
+		<!-- - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115650373-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-115650373-1');
+		</script>
+
 	</head>
-	<body>
-<script>
-$(function() {
-	location.href="http://www.maroon.dti.ne.jp/solfege.school/news.html";
-	return false;
-});
-</script>
 
-<style>
-	body{ display:none;}	
-</style>
+	<body><!-- header -->
+		<div class="navibar">
+			<div class="navibarContent">
+				<div class="hidden-xs visible-sm visible-md visible-lg">
+					<div id="logo"></div>
+					<ul class="list-inline">
+						<li><a href="./index.html">HOME</a></li>
+						<li><a href="./index.html#wolf">ABOUT US</a></li>
+						<li><a href="./index.html#courses">COURSES</a></li>
+						<li><a href="./index.html#teachers">TEACHERS</a></li>
+						<li><a href="./index.html#events">EVENTS</a></li>
+						<li><a href="./corporate.html">法人案内</a></li>
+						<li><a href="./support.html">サポートのお願い</a></li>
+					<br />
+					
+						<li><a href="./news.html">お知らせ</a></li>
+						<li><a href="./rent.html">貸ホール・貸練習室</a></li>
+						<li><a href="./access.html">お問合せ</a></li>
+						<li></li>
+						<li></li>
+						<li><a href="https://www.youtube.com/channel/UCR06qMz6qVZc8Ng_LfMMxoQ" target="_blank"><div id="youtubelogo"></div></a></li>
+						<li><a href="https://twitter.com/SolfegeSchool/" target="_blank"><div id="twitterlogo"></div></a></li>
+						<li><a href="https://www.facebook.com/solfegeschool/" target="_blank"><div id="FBlogo"></div></a></li>
+						<li><a href="https://www.instagram.com/solfegeschool/" target="_blank"><div id="instagramlogo"></div></a></li>
+					</ul>
+				</div><!-- hidden-xs -->
+				<div class="visible-xs hidden-sm hidden-md hidden-lg">
+					<table border="0" cellspacing="0" cellpadding="5" width="100%" height="100%">
+						<tr>
+							<td align="center"><a href="./index.html"><div id="logo"></div></a></td>
+							<td align="right">
+								<!--a href="https://www.youtube.com/channel/UCR06qMz6qVZc8Ng_LfMMxoQ" target="_blank"><div id="youtubeFooter"></div></a>
+								<a href="https://www.facebook.com/solfegeschool/" target="_blank"><div id="FBFooter"></div></a-->
+								<input type="checkbox" class="naviCheck" checked="checked" id="navicheckbox" style="display: none;" />
+								<label class="navi-button" for="navicheckbox"></label>
+								<div id="gNavi">
+									<ul>
+										<li><a class="wide" href="./news.html">お知らせ</a></li>
+										<li><a class="wide" href="./index.html#wolf">ABOUT US</a></li>
+										<li><a class="wide" href="./index.html#courses">COURSES</a></li>
+										<li><a class="wide" href="./index.html#teachers">TEACHERS</a></li>
+										<li><a class="wide" href="./index.html#events">EVENTS</a></li>
+										<li><a class="wide" href="./corporate.html">法人案内</a></li>
+										<li><a class="wide" href="./support.html">サポートのお願い</a></li>
+										<li><a class="wide" href="./rent.html">貸ホール・貸練習室</a></li>
+										<li><a class="wide" href="./access.html">お問合せ</a></li>
+									</ul>
+								</div><!-- gNavi -->
+								
+							</td>
+						</tr>
+					</table>
+				</div><!-- visible-xs -->
+			</div><!-- navibarContent -->
+		</div><!-- navibar -->
 
-</body>
+		<div class="newsHeader">
+			<table class="newsHeaderContent" border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+				<tr>
+					<td width="80%" align="left"><p class="en-title white-text">NEWS<br /><span class="jp-title">お知らせ</span></p></td>
+					<td width="10%"><a href="./about/about.html#newspaper"" title="newspaper"><div class="paperIcon"></div><!--br />< p class="capTxt">スクール<br />新聞</p --></a></td>
+				</tr>
+			</table>
+		</div>
+				
+		<div class="container-fluid" style="position: relative; top: 50px;">
+			<div class="wrapper-news">
+				<div id="bg-news">
+					<div class="row">
+						<div class="col-xs-12">
+						
+							<div class="news">
+								<table class="news-tbl" border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr>
+										<td>
+											<div class="newsImg">
+												<a href="events/oeuf.html">
+													<img src="./img/news/advertisement3-edited.jpg" class="img-responsive">
+												</a>
+											</div>
+											<br />
+										</td>
+										<td class="hidden-xs visible-sm" width="30%" style="padding-left: 10px">
+											<a href="events/oeuf.html"><span class="newsTitle">0～5歳のためのソルフェージ<br />「プレソルフェージ・ウフ」の再開♪</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 月1回の日曜日 </span><div class="date-underline"></div>
+											<p class="newsDetail">2022年度から、対面で開催していた「<b><small>音遊びするプレソルフェージ</small> ウフ</b>」が復活します!
+											<!--p class="newsDetail"><b>豊島区子育て情報ハンドブック</b>に掲載中‼ ご家族みんなで楽しめるクラスです。</p-->
+										</td>
+									</tr>
+									<tr class="visible-xs hidden-sm">
+										<td class="dchaTxt">
+											<a href="events/oeuf.html"><span class="newsTitle">0～5歳のためのソルフェージ「プレソルフェージ・ウフ」の再開♪</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 月1回の日曜日 </span><div class="date-underline"></div>
+											<br /><p class="newsDetail">2022年度から、対面で開催していた「<b><small>音遊びするプレソルフェージ</small> ウフ</b>」が復活します!
+											<!--p class="newsDetail"><b>豊島区子育て情報ハンドブック</b>に掲載中‼ご家族みんなで楽しめるクラスです。</p-->
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						<!--div class="col-xs-12 col-sm-3 col-md-6">
+							<div class="news">
+								<table class="news-tbl" bgcolor="#ffedec" border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr>
+										<td  style="padding-left: 10px">
+											<span class="newsTitle">明けましておめでとうございます</span><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 記載日: 2022年1月11日</span><div class="date-underline"></div>
+											<p class="newsDetail">
+											<b>2022年</b>のレッスンは<b>1月11日（火）</b>からスタートします。<br><br>
+											感染症がまだまだ落ち着きませんが、今年も今まで通り、十分に気を付けながら安全にレッスンを行っていく方針です。<br>
+											
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./events/oeuf.html">
+													<img src="./img/event/oeuf12.jpg" width="270px" class="img-responsive">
+													<span class="eventCap"></span>
+												</a>
+											</div>
+											<br />
+											<a href="./events/oeuf.html"><p class="newsTitle">12月4日 ウフ定員達しました</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年12月4日 10時</span><br />
+											<div class="date-underline"></div>
+											<p class="newsDetail">キャンセル待ちを受付中<br>
+											<b>Email:</b> <a href="mailto:sol.info@dream.jp">sol.info@dream.jp</a></p>
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<!--tr class="visible-xs hidden-sm">
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./events/oeuf.html">
+													<img src="./img/event/oeuf12.jpg" width="270px" class="img-responsive">
+													<span class="eventCap"></span>
+												</a>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<!-- span class="nuevoNews"></span -->
+											<!--a href="./events/oeuf.html"><p class="newsTitle">12月4日 ウフ定員達しました</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年12月4日 10:00-10:50</span><br />
+											<div class="date-underline"></div>
+											<p class="newsDetail">キャンセル待ちを受付中<br>
+											<b>Email:</b> <a href="mailto:sol.info@dream.jp">sol.info@dream.jp</a></p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./events/christmasConcert.html" target="_blank">
+													<img src="./img/news/XmasConcert2022.jpg" width="270px" class="img-responsive"></a>
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./events/christmasConcert.html" target="_blank">
+													<img src="./img/news/XmasConcert2022.jpg" width="270px" class="img-responsive"></a>
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./events/christmasConcert.html" target="_blank"><span class="newsTitle">クリスマスコンサート</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年12月18日（日）14時開演</span><br />
+											<div class="date-underline"></div>
+											<p class="newsDetail">
+											<a href="https://solfegeschool.github.io/solfege.school/doc/event/xmasconcert2022.pdf"><span class="glyphicon glyphicon-file"></span> 予約申込書</a><br>
+											<b>前売券:</b> 2022年12月11日までにお支払いいただいた場合、上記代金より各々300円引き致します。<br>
+											<span class="red-text">チケット残りわずか</span>
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						<div class="col-xs-12 col-sm-3 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./events/springCamp.html">
+												<img src="./img/news/springCamp2022.jpg" width="270px" class="img-responsive">
+												<span class="eventCap"></span></a>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./events/springCamp.html">
+												<img src="./img/news/springCamp2022.jpg" width="270px" class="img-responsive">
+												<span class="eventCap"></span></a>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<!--span class="nuevoNews"></span-->
+											<a href="./events/springCamp.html"><p class="newsTitle"><small>弦とピアノのための</small><br />春のミュージックキャンプ</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2023年4月1日(土)・2日(日)</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail"> 申込受付中 (締切: 3月2日)<br /><br />
+											参加希望の方: <br><a href="https://forms.gle/AxppkaGNefEAVyrZ6" target="_blank"><span class="glyphicon glyphicon-modal-window"></span> オンライン申込フォーム </a><br /><br />
+											
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./events/springConcert.html">
+													<img src="./img/news/springConcert2022.jpg" width="270px" class="img-responsive">
+												</a>
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<!--tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./events/springConcert.html">
+													<img src="./img/news/springConcert2022.jpg" width="270px" class="img-responsive">
+												</a>
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<!-- span class="nuevoNews"></span -->
+											<!--a href="./events/springConcert.html"><p class="newsTitle">春のコンサート</p></a>
+											<p class="date"><span class="glyphicon glyphicon-time"></span> 2022年4月29日（金・祝）14時開演</p>
+											<div class="date-underline"></div>
+											<p class="newsDetail">
+											<!--a href="./doc/event/springConcert2022.pdf"><span class="glyphicon glyphicon-file"></span> コンサート予約申込書</a><br /-->
+											<!--span class="red-text">チケットは完売しました</span>
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./doc/event/60specialconcert.pdf">
+													<img src="./img/news/60aniv.jpg" width="270px" class="img-responsive">
+												</a>
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./doc/event/60specialconcert.pdf">
+													<img src="./img/news/60aniv.jpg" width="270px" class="img-responsive">
+												</a>
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./events/specialConcert.html" target="_blank"><span class="newsTitle">ソルフェージスクール<br>創立60周年記念演奏会</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年6月26日(日) 14時開演</span><br />
+											<div class="date-underline"></div>
+											<p class="newsDetail">コロナの影響により一年遅れで記念演奏会を催します。<br>ご来場をお待ちしています。
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./events/assemble.html">
+												<img src="./img/news/assemble2020.jpg" class="img-responsive"></a>
+												<span class="eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<!--tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./events/assemble.html">
+												<img src="./img/news/assemble2020.jpg" width="270px" class="img-responsive"></a>
+												<span class="eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<!--span class="nuevoNews"></span-->
+											<!--a href="./events/assemble.html"><p class="newsTitle"><small>弦とピアノのための</small><br />楽しくアンサンブル!</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年11月23日（水・祝）</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail"> 参加者募集中 (<b>締切</b> 10月27日(木))<br />
+											人数も制限しますのでお早めにお申し込み下さい。<br /><br>
+											<a href="./doc/event/assemble2022winter.pdf"><span class="glyphicon glyphicon-file"></span> 詳細PDF</a><br />
+											
+											<!--詳細についてはお問合せください。<br /><b>Email</b>: <a href="mailto:sol.info@dream.jp">sol.info@dream.jp</a-->
+											<!--/p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./events/summerCamp.html" target="_blank">
+												<img src="./img/news/summerCamp2021.jpg" width="270px" class="img-responsive"></a>
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="50%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./events/summerCamp.html" target="_blank">
+												<img src="./img/news/summerCamp2021.jpg" width="270px" class="img-responsive"></a>
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./events/summerCamp.html" target="_blank"><span class="newsTitle">夏季合宿 in 目白</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年8月12日(金)～14日(日)</span><br />
+											<div class="date-underline"></div>
+											<p class="newsDetail">参加者募集中（締切 7月7日（木））<br><u>先着順、定員あり</u><br /><br>
+											<a href="./doc/event/summerCamp2022programappForm.pdf"><span class="glyphicon glyphicon-file"></span> 詳細PDF</a>
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						<div class="col-xs-12 col-sm-3 col-md-3">
+						<!--div class="col-xs-12 col-sm-6"-->
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="https://solfegeschool.github.io/solfege.school/doc/newspaper/newsletter202210.pdf">
+													<img src="./img/news/newsletter202210.jpg" width="270px" class="img-responsive">
+													<span class="newsCap"></span>
+												</a>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="https://solfegeschool.github.io/solfege.school/doc/newspaper/newsletter202210.pdf">
+													<img src="./img/news/newsletter202210.jpg" width="270px" class="img-responsive">
+													<span class="newsCap"></span>
+												</a>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="https://solfegeschool.github.io/solfege.school/doc/newspaper/newsletter202210.pdf"><p class="newsTitle">NEWSLETTER No.12</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年10月19日発行</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail">
+												<b>イベント報告</b>: おさらい会, 春のミュージックキャンプ, 春のコンサート<br>
+												
+												<a href="./about/about.html#newspaper" title="newspaper" target="_blank"><span class="glyphicon glyphicon-new-window"></span>  新聞 バックナンバー</a>
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-3 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./doc/event/oeuf.pdf">
+													<img src="./img/news/oeuf2022.jpg" width="270px" class="img-responsive">
+													<span class="eventCap"></span>
+												</a>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./doc/event/oeuf.pdf">
+													<img src="./img/news/oeuf2022.jpg" width="270px" class="img-responsive">
+													<span class="eventCap"></span>
+												</a>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<!-- span class="nuevoNews"></span -->
+											<a href="./events/oeuf.html"><p class="newsTitle"><small>音遊びするプレソルフェージ</small> ウフ</p></a>
+											<p class="date"><span class="glyphicon glyphicon-time"></span>2022年4月17日（日）スタート</p>
+											<div class="date-underline"></div>
+											<p class="newsDetail">2022年度は<b>対面</b>で「<b><small>音遊びするプレソルフェージ</small> ウフ</b>」を開催します!<br /><br />
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<a href="./doc/event/remote-oeuf.pdf">
+													<img src="./img/news/remote-oeuf.jpg" width="270px" class="img-responsive">
+													<span class="eventCap"></span>
+												</a>
+											</div>
+											<br />
+										</td>
+									</tr>
+							
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<a href="./doc/event/remote-oeuf.pdf">
+													<img src="./img/news/remote-oeuf.jpg" width="270px" class="img-responsive">
+													<span class="eventCap"></span>
+												</a>
+											</div>
+										</td>
+										<td class="dchaTxt">
+							
+											<a href="./events/oeuf.html"><p class="newsTitle">ウフフ・リトミック</p></a>
+											<p class="date"><span class="glyphicon glyphicon-time"></span>最終日: 2022年3月20日（日）</p>
+											<div class="date-underline"></div>
+											<p class="newsDetail"><b>オンライン</b>『<b>ウフフ・リトミック</b>』は、もうすぐ終わり<br /><br />
+							
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						<div class="col-xs-12 col-sm-3 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<a href="./trialform.html">
+												<div class="newsImg">
+													<img src="./img/news/trialform.jpg" width="270px" class="img-responsive">
+												</div>
+											</a>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<a href="./trialform.html">
+												<div class="newsImg">
+													<img src="./img/news/trialform.jpg" width="270px" class="img-responsive">
+												</div>
+											</a>
+										</td>
+										<td class="dchaTxt">
+											<!--span class="nuevoNews"></span-->
+											<a href="./trialform.html"><p class="newsTitle">無料 見学・体験レッスン</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年2月9日</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail">
+											 無料 見学・体験レッスン受付を開始しました。<br>フォームを記入の上、ご応募ください。
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						
+
+						
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+						<!--div class="col-xs-12 col-sm-6"-->
+							<!--div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/third-semester.jpg" width="270px" class="img-responsive">
+												<span class="courseCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/third-semester.jpg" width="270px" class="img-responsive">
+												<span class="courseCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./breaking-news.html#20210111"><p class="newsTitle">3学期の始まり</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2021年1月12日</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail">
+												3学期は、<b>1月12日(火)</b>からスタートします！<br />
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						
+						<div class="col-xs-12 col-sm-3 col-md-3">
+						<!--div class="col-xs-12 col-sm-6"-->
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/inpersonlesson.jpg" width="270px" class="img-responsive">
+												<span class="courseCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/inpersonlesson.jpg" width="270px" class="img-responsive">
+												<span class="courseCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<p class="newsTitle">レッスンの形態</p>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年10月</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail">
+												<!--コーラス科 <a href="./courses/grenouille.html">レ・グルヌイユ</a>、子どもコーラス科 <a href="./courses/tetard.html">レ・テタール</a> 及び <a href="./courses/solfege_abc.html">ソルフェージ＆ABC</a>科は<b>オンラインと対面の併用レッスン</b>です。<br />
+												
+												<br />また、通常レッスンについてもオンラインレッスンを-->
+												オンラインと対面の併用レッスンは必要に応じて行います。希望される方は、御遠慮なくお問合せください。<br>
+												<b>Email</b>: <a href="mailto:sol.info@dream.jp">sol.info@dream.jp</a>
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						
+
+						
+						
+						<!--div class="col-xs-12 col-sm-3 col-md-3">
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/2020secondsemester.jpg" class="img-responsive">
+												<!--span class="courseCap"></span-->
+											<!--/div>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<!--tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/2020secondsemester.jpg" width="270px" class="img-responsive">
+												<!--span class="courseCap"></span-->
+											<!--/div>
+										</td>
+										<td class="dchaTxt">
+											<!--span class="nuevoNews"></span-->
+											<!--a href="./breaking-news.html#20201027"><p class="newsTitle">今後の予定</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2020年10月27日</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail"> 今後の予定の情報を更新しました。<br /><br />
+											<b>感染症対策を重視</b>しながら、通常通りの対面レッスンを行っております。
+											
+											<!--これまで感染症の影響で多くのイベントを中止にしてきましたが、これからは工夫しながら出来るイベントは開催したいと考えております。<br />
+											詳細についてはお問合せください。<br /><b>Email</b>: <a href="mailto:sol.info@dream.jp">sol.info@dream.jp</a-->
+											<!--/p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						<div class="col-xs-12 col-sm-3 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<a href="https://www.youtube.com/watch?v=oKaHpG96TIg">
+												<div class="newsImg">
+													<img src="./img/news/remote20200728.jpg" class="img-responsive">
+													<span class="eventCap"></span>
+												</div>
+											</a>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<a href="https://www.youtube.com/watch?v=oKaHpG96TIg">
+												<div class="newsImg">
+													<img src="./img/news/remote20200728.jpg" width="270px" class="img-responsive">
+													<span class="eventCap"></span>
+												</div>
+											</a>
+										</td>
+										<td class="dchaTxt">
+											<!--span class="nuevoNews"></span-->
+											<a href="https://www.youtube.com/watch?v=oKaHpG96TIg"><p class="newsTitle">音楽の時間♪</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年10月</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail"> お家でソルフェージスクールの先生たちと一緒に遊べる動画を 
+											<a href="https://www.youtube.com/watch?v=oKaHpG96TIg">YouTube</a> から配信しました!
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-6">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									
+									<tr>
+										<td>
+											<!--img src="./img/news-head.jpg" width="100%" class="img-responsive"-->
+											<!--a href="./breaking-news.html#20220122"--><p class="newsTitle">コロナウイルス感染防止対策<!--br><span class="red-text"><small>-まん延防止等重点措置-</small></span--></p>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2022年4月1日 </span>
+											<div class="date-underline"></div>
+											<div class="newsDetail">
+											<!--4度目の<b>緊急事態宣言</b>が発出されました。<br /><br /-->
+												<div style="border: solid 1px #cc1111; padding: 10px; background: #f7f7f7">
+													<u><b>生徒の皆様へのお願い</b></u><br />
+													<ul style="margin-left: 20px">
+														<li>必ずマスクをご着用ください。</li>
+														<li>体調がすぐれない場合は無理をせず、お休みください。特に37.0度以上の熱がある場合はお休みください。</li>
+														<li>スクールに到着時、入口の消毒液で手消毒、手洗い、検温を、お願いいたします。</li>
+													</ul>
+												</div><br />
+												<div style="border: solid 1px #cc1111; padding: 10px; background: #f7f7f7">
+													<u><b>スクールでの感染予防対策</b></u><br />
+													<ul style="margin-left: 20px"><li>講師スタッフはマスク着用</li>
+														<li>手洗い、手消毒の徹底</li>
+														<li>スクール内設備、室内、共有物（スリッパ、共有の教材等）の都度消毒</li>
+														<li>レッスンごとに窓を開けて換気、ピアノの拭き掃除</li>
+														<li>レッスン中も生徒と一定の距離をとる</li>
+														<li>歌うことは最小限に抑える</li>
+													</ul>
+												</div>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						<!-- div class="col-xs-12 col-sm-4 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/covid19.jpg" width="270px" class="img-responsive">
+											</div>
+											<br />
+										</td>
+									</tr>
+									<!--tr>
+										<td><div class="nuevoNews"></div></td>
+									</tr-->
+									<!--tr>
+										<td width="50%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/covid19.jpg" width="270px" class="img-responsive">
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<!--span class="nuevoNews"></span-->
+											<!--a href="./breaking-news.html"><span class="newsTitle">おさらい会</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 4月5日</span>
+											<div class="date-underline"></div>
+											<p class="newsDetail"> 3月20日のおさらい会は中止いたします<br />
+											
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						
+						
+						
+						
+						<!--div class="col-xs-12 col-sm-4 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/refresher2018.jpg" width="270px" class="img-responsive">
+												<span class="eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="50%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/refresher2018.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./events/refresher.html" target="_blank"><span class="newsTitle">秋のおさらい会</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 10月27日（日）14時開演</span><br />
+											<p class="newsDetail">入場無料! <br />
+											是非聴きにいらして下さい!!
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div -->
+						
+						<!-- div class="col-xs-12 col-sm-4 col-md-3">
+						
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/fundamentals.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="50%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/fundamentals.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./events/fundCourse.html" target="_blank"><span class="newsTitle">大人の音楽の時間</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 11月7日スタート (全5回木曜日)</span><br />
+											<p class="newsDetail">参加者募集中 <br />
+											<a href="./doc/event/fundCourse2019.pdf"><span class="glyphicon glyphicon-file"></span> 詳細PDF</a>
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div -->
+
+						<!-- div class="col-xs-12 col-sm-4 col-md-3">
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/annualConcert2019.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="50%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/annualConcert2019.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./events/annualConcert.html" target="_blank"><span class="newsTitle">ソルフェージスクール演奏会</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2019年6月30日（日）14時開演</span><br />
+											<p class="newsDetail">入場無料です。<br />
+												ぜひ聴きにいらして下さい。
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div -->
+						
+						<!--div class="col-xs-12 col-sm-4 col-md-3">
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/assemble.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="50%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/assemble.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./events/assemble.html" target="_blank"><span class="newsTitle">楽しくアンサンブル!</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 12月15日（日）</span><br />
+											<p class="newsDetail">参加者募集中 (締切11月27日)<br />
+											<a href="./doc/event/assemble2019winter.pdf"><span class="glyphicon glyphicon-file"></span> 詳細PDF</a>
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						<!-- div class="col-xs-12 col-sm-4 col-md-3">
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/K_lectures2019.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="50%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/K_lectures2019.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./events/kameiLectures.html" target="_blank"><span class="newsTitle">亀井由紀子特別公開レッスン</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 2019年8月06日（火）13時から</span><br />
+											<p class="newsDetail">
+											申込み締め切りました
+											</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div -->
+						
+						
+						<!--div class="col-xs-12 col-sm-4 col-md-3">
+						<!--div class="col-xs-12 col-sm-6" -->
+							<!--div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/solfegeABC.jpg" width="270px" class="img-responsive">
+												<span class="courseCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="45%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/solfegeABC.jpg" width="270px" class="img-responsive">
+												<span class="courseCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="./courses/solfege_abc.html"><p class="newsTitle">ソルフェージ & ABC</p></a>
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 月1回の日曜日</span><br />
+											<div class="date-underline"></div>
+											<p class="newsDetail">いつからでもはじめられます。詳細はCOURSESページ。</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<!--div class="col-xs-12 col-sm-4 col-md-3">
+						<!--div class="col-xs-12 col-sm-6" >
+							<div class="news">
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+									<tr class="hidden-xs visible-sm">
+										<td>
+											<div class="newsImg">
+												<img src="./img/news/oeuf.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+											<br />
+										</td>
+									</tr>
+									<tr>
+										<td width="50%" class="visible-xs hidden-sm">
+											<div class="newsImg">
+												<img src="./img/news/oeuf.jpg" width="270px" class="img-responsive">
+												<span class="picCap eventCap"></span>
+											</div>
+										</td>
+										<td class="dchaTxt">
+											<a href="events/oeuf.html" target="_blank"><span class="newsTitle">音遊びするプレソルフェージ　ウフ</span></a><br />
+											<span class="date"><span class="glyphicon glyphicon-time"></span> 月1回の日曜日</span><br />
+											<div class="date-underline"></div>
+											<p class="newsDetail">つごうの良い月に一回毎参加できます。</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div-->
+						
+						
+						
+						<!-- div class="col-xs-12 col-sm-4 col-md-3">
+							<div class="news">
+								<a href="./events/kameiLectures.html" target="_blank">
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+										<tr class="hidden-xs visible-sm">
+											<td><img src="./img/news/K_lectures.jpg" width="200px" class="img-responsive"></td>
+										</tr>
+										<tr>
+											<td width="60%" class="visible-xs hidden-sm">
+												<img src="./img/news/K_lectures.jpg" width="300px" class="img-responsive">
+											</td>
+											<td class="dchaTxt">
+												<b>亀井由紀子特別公開レッスン</b><br /><span class="glyphicon glyphicon-time"></span><span class="date"> 2018年8月10日（金）</span><br />
+												<small>受講生の申し込みは締め切りました。<br />聴講はまだ受け付けております。</small>
+											</td>
+										</tr>
+									</table>
+								</a>
+							</div>
+						</div -->
+
+						<div class="col-xs-12 navbarTopPadding">
+							<br /><br /><br />
+						</div>
+					</div><!-- row -->
+				</div><!-- bg-news -->
+			</div><!-- wrapper -->
+		</div><!--  container-fluid -->
+			
+		<!-- Footer -->
+		<div id="footer" class="setAnchor"></div>
+		<div class="footer navbarTopPadding">
+			<div class="footer_content">
+				<ul class="footer_list">
+					<li><a href="mailto:sol.info@dream.jp"><span class="glyphicon glyphicon-envelope"></span></a></li>
+					<li><a href="./access.html"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+					<li><a href="./trialform.html"><span class="glyphicon glyphicon-pencil"></span></a></li>
+					<br>
+						<li><a href="https://www.youtube.com/channel/UCR06qMz6qVZc8Ng_LfMMxoQ" target="_blank"><div id="youtubelogo"></div></a></li>
+						<li><a href="https://twitter.com/SolfegeSchool/" target="_blank"><div id="twitterlogo"></div></a></li>
+						<li><a href="https://www.facebook.com/solfegeschool/" target="_blank"><div id="FBlogo"></div></a></li>
+						<li><a href="https://www.instagram.com/solfegeschool/" target="_blank"><div id="instagramlogo"></div></a></li>
+				</ul>
+				<div class="copyright-text darkgray-text">Copyright &copy;  <span class="copyright-Jptext red-text">公益財団法人ソルフェージスクール</span>  All Rights Reserved</div>
+			</div>
+		</div><!-- footer --> 
+		
+		<a href="#"><div class="pagetop"><span class="glyphicon glyphicon-triangle-top"></span></div></a>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/velocity.min.js"></script>
+		<script type="text/javascript" src="./js/solfege.js"></script>
+	</body>
 </html>
