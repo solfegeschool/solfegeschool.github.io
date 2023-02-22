@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<!-- Solfege School Ver. 09 Mar 2018 By // -->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="-研究会- ソルフェージの研究の促進及び指導者育成を目的とした講習会です。" />
+		<meta name="author" content="" />
+		<title>Solfege School</title>
+		<link rel="icon" type="image/png" href="../img/logoTransRed2.png" />
+		<link rel="stylesheet" href="../css/common.css" />
+		
+		<link rel="stylesheet" href="../css/events.css" />
+		<!-- - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115650373-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-115650373-1');
+		</script>
+	</head>
+
+	<body>	
+		<div class="container-fluid">
+			<div class="event_bg">
+				<div class="wrapper">
+				
+					<div class="row">
+						<div class="col-xs-12">
+							<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+								<tr>
+									<td><div class="en-title"><a href="../index.html#events"><span class="white-text">EVENTS<br /><span class="jp-title">行事</span></span></a></div></td>
+									<td><span style="font-size: 40px; float: right; color: white;"><a href="../index.html#events"><span class="white-text glyphicon glyphicon-remove-circle" ></span></a></div></td>
+								</tr>
+							</table>
+							<hr color="#FFFFFF" /><br />
+						</div>
+					</div>
+										
+					<div class="row">
+						<div class="col-xs-12 col-sm-8">
+							<div class="bg_blanco">
+								<div class="eventTitle"><span class="red-text">研究会</span></div>
+								<hr color="#cc1111" /><br />
+								<div class="eventDate">
+									<!--span class="glyphicon glyphicon-time"></span> 2018年2月14日（水）<br />
+									<span class="glyphicon glyphicon-time"></span> 2018年9月28日（金）<br />
+									<span class="glyphicon glyphicon-time"></span> 2019年2月13日（水）<br /-->
+								</div>
+								<br />
+								
+								<div class="row">
+									
+									<div class="col-xs-12 event-detail">
+										
+										ソルフェージの研究の促進及び指導者育成を目的とした講習会です。<br /><br />
+										<b>研究会テーマ例：</b>&#8195;
+										<ul>
+											<li>ソルフェージの魅力ある授業の進め方</li>
+											<li>バッハを歌おう</li>
+											<li>ピアノ教育</li>
+											<li>連弾研究</li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="row event-detail">
+									<div class="col-xs-10 col-sm-8">
+									
+										<div class="itemTitle">対象:</div>
+										指導者<br />
+										<small>当スクール関係者に限らず、どなたでも受講できます</small><br />
+										<div class="itemTitle">リンク:</div>
+										<a href="https://m.facebook.com/story.php?story_fbid=1865095566899551&id=910391872369930"><img src="../img/facebook-logo.png" height="15" width="15"/> Facebook</a>
+										<br /><br />
+									</div>
+								</div>
+							
+								<div class="eventSq">
+									<div class="row">
+										<div class="col-xs-12 col-sm-7">
+											<p><small>2018年9月28日の研究会<br />研究テーマ</small></p><br />
+											<p><big><b>『子どもの力をひきだすために』</b></big></p><br />
+										</div>
+										<div class="col-xs-12 col-sm-5">
+											<img src="../img/event/studyDays.jpg" class="img-responsive" width="250px" /><br />
+											<p class="photoTxt" style="float: left;">研究会で使われた参考文献のうちの1冊</p>
+										</div>
+										
+										<div class="col-xs-12">
+											<hr /><br />
+											<div class=" black-text event-detail">
+												<p class="sumTxt">子どもは本来いろいろな力を秘めているもの</p><br />
+												<p class="detailTxt"><small>
+												そのかくれた力をひきだすには、叱らず、問いかけ、自分から進んで行動をおこしていく力を養うことが必要です。<br />
+												ソルフェージスクールに通う子どもたちの現状を見つめ、余裕のない今の子どもたちに何が必要か。<br />
+												日頃のレッスンのようすなどを話し合いながらNGワード(生徒に言ってはいけない言葉)をいくつかあげ、それにかわる言葉を探したりして、より良いレッスンをする為、自由に議論する機会となりました。<br />
+												</small></p>
+												<br />
+											</div>
+										</div>
+										</div>
+									</div><!-- eventSq -->
+								
+							</div><!-- bg_blanco -->
+							
+							<div class="col-xs-12" style="height: 30px;"></div>
+							
+						</div>
+						
+					</div><!-- row -->
+					
+				</div><!-- wrapper -->
+			</div><!-- event_bg -->
+		<!-- Footer -->
+		<div id="footer" class="setAnchor"></div>
+		<div class="footer">
+			<div class="footer_content">
+				<ul class="footer_list">
+					<li><a href="mailto:sol.info@dream.jp"><span class="glyphicon glyphicon-envelope"></span></a></li>
+					<li><a href="../access.html"><span class="glyphicon glyphicon-map-marker"></span></a></li>
+					<li><a href="https://www.facebook.com/solfegeschool/" target="_blank"><div id="FBFooter"></div></a></li>
+				</ul>
+				<div class="copyright-text darkgray-text">Copyright &copy;  <span class="copyright-Jptext red-text">公益財団法人ソルフェージスクール</span>  All Rights Reserved</div>
+			</div>
+		</div><!-- footer --> 
+		
+		
+		<a href="#"><div class="pagetop"><span class="glyphicon glyphicon-triangle-top"></span></div></a>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/velocity.min.js"></script>
+		<script type="text/javascript" src="../js/solfege.js"></script>
+	</body>
+</html>
