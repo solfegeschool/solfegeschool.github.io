@@ -10,6 +10,8 @@
 		<link rel="icon" type="image/png" href="./img/logoTransRed2.png" />
 		<link rel="stylesheet" href="./css/common.css?v=1.1" />
 		<!--link rel="stylesheet" href="./css/gmaps.css" / -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/tabifier.js"></script>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRH0FVSS54"></script>
 		<script>
@@ -104,23 +106,12 @@
 					<div class="hidden-xs visible-sm col-sm-offset-1 col-sm-10">
 					<!--div class="col-sm-12 col-sm-offset-1 col-sm-10"-->
 						<div id="map" class="img-responsive" style="width: 100%; height: 500px;">
-							<script>
-								mapboxgl.accessToken = 'pk.eyJ1Ijoic29sZmVnZSIsImEiOiJjam54Mm4xYTMwN3N0M3BteGd4NTN2Mml3In0.LU0aVilDd0k9n04F4RC_4Q';
-								var map = new mapboxgl.Map({
-								container: 'map',
-								style: 'mapbox://styles/mapbox/streets-v10',
-								center: [139.700596, 35.725500],
-								zoom: 14.6
-								});
-								new mapboxgl.Marker({color: '#cc1111'})
-								.setLngLat([139.700596, 35.725500])
-								.addTo(map);
-							</script>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.0306254911407!2d139.69803171025623!3d35.72546532743024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d506e44efb1%3A0x5065a1f65abde51!2z44K944Or44OV44Kn44O844K444K544Kv44O844Or!5e0!3m2!1sen!2sjp!4v1681817709181!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+							</iframe>
+							
 						</div>
 					</div><!-- col -->
-					<div class="visible-xs hidden-sm col-sm-12">
-						<img src="./img/map.jpg" class="img-responsive" width="100%" />
-					</div>
+					
 				</div><!-- row Content body -->
 			</div><!-- wrapper -->
 		</div><!--  container-fluid -->
@@ -155,5 +146,6 @@
 		<script src="./js/solfegemap.js"></script -->
 		<script type="text/javascript" src="./js/velocity.min.js"></script>
 		<script type="text/javascript" src="./js/solfege.js"></script>
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
 	</body>
 </html>
