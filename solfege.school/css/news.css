@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* NEWS page */
+.covid-link{
+  background:#ffffff; 
+  border-bottom: 0.1px solid #cc1111;
+}
+
+td.news-link{
+  background:#ffffff; 
+  border-bottom: 0.1px solid #cc1111;
+}
+.covid-link:hover{
+  cursor: pointer;
+  background:#e0e0e0; 
+}
+
+td.news-link:hover{
+  cursor: pointer !important;
+  background:#e0e0e0 !important; 
+}
+

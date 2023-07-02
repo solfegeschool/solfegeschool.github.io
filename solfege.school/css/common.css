@@ -654,7 +654,7 @@ body {
 }
 #bg-news {
   position: relative;
-  top: 70px;
+  top: 30px;
   background-color: #ffffff;
 	width: 100%;
 	margin-left: auto;
@@ -2615,7 +2615,6 @@ input[type=checkbox]:checked ~ event-item {
   .top_img,
   .espacioBlanco,
   #bg-definition,
-  #bg-news,
   #bg-aboutTop,
   #bg-about,
   #bg-teachers,
@@ -2623,6 +2622,9 @@ input[type=checkbox]:checked ~ event-item {
   #bg-courses,
   #bg-events {
     top: 100px;
+  }
+  #bg-news {
+  	top: 50px;
   }
   .coursePic {
     height: 80px;
