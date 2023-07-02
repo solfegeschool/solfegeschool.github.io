@@ -9,6 +9,7 @@
 		<title>Solfege School</title>
 		<link rel="icon" type="image/png" href="./img/logoTransRed2.png" />
 		<link rel="stylesheet" href="./css/common.css?v=1.1" />
+		<link rel="stylesheet" href="./css/news.css?v=1.0" />
 		
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRH0FVSS54"></script>
@@ -19,7 +20,11 @@
 
 		  gtag('config', 'G-JRH0FVSS54');
 		</script>
-
+		<style type="text/css">
+			td a {
+			 text-decoration: none;
+		}
+		</style>
 	</head>
 
 	<body><!-- header -->
@@ -78,16 +83,29 @@
 			</div><!-- navibarContent -->
 		</div><!-- navibar -->
 
-		<div class="newsHeader">
+		<div class="newsHeader navbarTopPadding">
 			<table class="newsHeaderContent" border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
 				<tr>
-					<td width="80%" align="left"><p class="en-title white-text">NEWS<br /><span class="jp-title">お知らせ</span></p></td>
-					<td width="10%"><a href="./about/about.html#newspaper"" title="newspaper"><div class="paperIcon"></div><!--br />< p class="capTxt">スクール<br />新聞</p --></a></td>
+					<td width="60%" rowspan="2" align="left"><p class="en-title white-text">NEWS<br /><span class="jp-title">お知らせ</span></p></td>
+					<td width="10%" class="news-link">
+						<img src="./img/newsletter-icon.svg" class="img-responsive" title="newspaper">
+					</td>
+					<td class="news-link hidden-xs visible-sm">&emsp; 
+						<span class="newsTitle">新聞アーカイブ</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="10%" class="covid-link">
+						<img src="./img/covid-icon.svg" class="img-responsive" title="covid-news">
+					</td>
+					<td class="covid-link hidden-xs visible-sm">&emsp; 
+						<span class="newsTitle">コロナ対策について</span>
+					</td>
 				</tr>
 			</table>
 		</div>
 				
-		<div class="container-fluid" style="position: relative; top: 50px;">
+		<div class="container-fluid" style="position: relative; top: 100px;">
 			<div class="wrapper-news">
 				<div id="bg-news">
 					<div class="row">
@@ -1090,5 +1108,6 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script type="text/javascript" src="./js/velocity.min.js"></script>
 		<script type="text/javascript" src="./js/solfege.js"></script>
+		<script type="text/javascript" src="./js/news.js"></script>
 	</body>
 </html>
