@@ -53,6 +53,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+.bg_shimbun {
+  background-color: #982E4B;
+  padding: 40px 0;
+//  background-image: url("../img/bg-papers-xs-min.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .bg-newspaper {
   background-color: #000000;
   padding: 40px 0;
@@ -119,6 +131,9 @@
 }
 .wordsOfFounder {
 	quotes: '“' '”';
+	margin: 20px;
+}
+.press_intro {
 	margin: 20px;
 }
 .newspaperImg {
