@@ -93,16 +93,22 @@ body {
   color: inherit;
 }
 .emergency_notice {
+  margin: auto;
   font-size: 1.5rem; 
   color: #ffffff;
 }
+.emergency_notice a {
+  text-decoration: none;
+  color: #ADD8E6;
+}
 .emergency_bg {
+  margin: auto;
   background-color: #444444;
   padding: 0.3rem 0.8rem;
 }
 .emergency_date {
-	color: #cccccc;
-	font-size: 12px;
+	color: #FFFF33;
+	font-size: 14px;
 	font-weight: normal;
 	line-height: 12px;
 	margin-bottom: 5px;
