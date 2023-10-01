@@ -4,7 +4,7 @@ $(document).ready(function() {
  	});
  	
  	$(".covid-link").click(function(){
-  		 window.location = "./covid-news.html";
+  		 window.location = "./colds-flu-covid-news.html";
  	});
 });
 
