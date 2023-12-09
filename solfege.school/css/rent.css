@@ -1,13 +1,81 @@
 @charset "UTF-8";
-
+.rent_bg {
+  position: relative;
+  background-color: #ffffff;
+  background-image: url("../img/rent_top.jpg");
+  // background-image: url("../img/R0011835.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.center_title {
+	color: #000000;
+	padding: 3px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #f0f0f0;
+	border: solid 3px #ffcf11;
+	border-radius: 5px;
+}
 .rent_TblTitle {
-	color: #ffffff;
+	color: #000000;
 	padding: 5px;
 	margin: 0px 5px 0px 0px;
 	font-weight: bold;
 	text-align: left;
+	background-color: rgba(255,255,255, 0.7);
 	border-left: solid 10px #ffcf11;
-	border-bottom: solid 1px #ffcf11;
+	//border-bottom: solid 1px #ffcf11;
+}
+.white-bg {
+  position: relative;
+  background-color: rgba(255,255,255, 0.6);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.bg-content {
+  position: relative;
+  opacity: 1;
+}
+.img-border {
+  border: 5px solid #ffffff;
+}
+.gray-bg {
+  position: relative;
+  background-color: #f9f9f9;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.secf_bg {
+  position: relative;
+  background-image: url("../img/P1060557.png");
+  background-color: #f9f9f9;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 .table_rent {
   border-collapse: collapse;
@@ -19,4 +87,13 @@
 .table_rent td {
   background-color: #ffffff;
   color: #000000;
+}
+/* Responsive Design */
+@media (max-width: 767px) {
+  .rent_bg {
+    background-size: cover;
+  }
+  .secf_bg {
+    background-size: contain;
+  }
 }
