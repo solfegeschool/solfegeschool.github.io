@@ -619,7 +619,19 @@ body {
 	margin-right: auto;
 	padding: 0;
 }
-
+.announcement {
+	position: absolute;
+	top: 100px;
+	right: 10px;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #cc1111;
+	background-color: #ddd;
+	line-height: 40px;
+	border-radius: 10px;
+}
 #bg-courses {
   position: relative;
   top: 70px;
@@ -658,6 +670,7 @@ body {
 	margin-right: auto;
 	padding: 0;
 }
+
 #bg-news {
   position: relative;
   top: 30px;
@@ -824,6 +837,9 @@ body {
 	#bg-slogan,
 	.rotating {
 		min-height: 150px;
+	}
+	.announcement {
+		top: 30px;
 	}
 }
 @keyframes parpadeo {
@@ -1469,6 +1485,16 @@ input[type=checkbox]:checked ~ div {
   background-image: url("../img/instagramR.png");
   text-decoration: none;
 }
+.navibarContent ul li .new::after {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	-moz-border-radius: 7.5px;
+	-webkit-border-radius: 7.5px;
+	border-radius: 7.5px;
+	background-color: #ffad00;
+}
 .naviCheck + label {
   position: relative;
   top: 10px;
@@ -1609,15 +1635,15 @@ input[type=checkbox]:checked ~ event-item {
 /* Go Top of the Page */
 .pagetop {
 	position: fixed;
-	bottom: 200px;
+	bottom: 80px;
 	right: 0;
 	z-index: 2;
 	width: 50px;
-	height: 100px;
+	height: 80px;
 	border-radius: 10px 0 0 10px;
 	border: none;
 	background-color: #cc1111;
-	opacity: 0.5;
+	opacity: 0.6;
 	text-align: center;
 	color: #ffffff;
 	font-size: 24px;
@@ -2835,10 +2861,11 @@ input[type=checkbox]:checked ~ event-item {
 	padding-top: 28px;
   }
   .pagetop {
-	right: 100px;
+	//right: 100px;
 	width: 100px;
 	height: 100px;
 	border-radius: 10px;
+	bottom: 50px;
   }
 }
 
