@@ -29,7 +29,11 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
-
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 /* Colored text */
 .red-text { color: #cc1111; }
 .pink-text { color: #d70e97; }
@@ -293,9 +297,8 @@ body {
 /* Event */
 .event-title {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
-  font-weight: bold;
-  margin-left: 20px;
-  padding-right: 20px;
+  color: #fff;
+  text-decoration: none;
 }
 .event-detail {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
@@ -632,6 +635,7 @@ body {
 	line-height: 40px;
 	border-radius: 10px;
 }
+
 #bg-courses {
   position: relative;
   top: 70px;
@@ -683,7 +687,7 @@ body {
 #bg-events {
   position: relative;
   top: 70px;
-  background-color: #333333;
+  background-color: #f9f2e4;
 /*  background-image: url("../img/event/specialConcert.png");
 	background-position: top;
 	background-repeat: no-repeat;
@@ -716,7 +720,7 @@ body {
 
 .date {
 	//color: #900C3F;
-	color: #666666;
+	color: #666;
 	font-size: 12px;
 	//font-weight: bold;
 	font-weight: normal;
@@ -1099,7 +1103,7 @@ body {
 .cal_wrapper {
   max-width: 600px;
   min-width: 250px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding-bottom: 20px;
 } 
 .googlecal {
@@ -1296,9 +1300,11 @@ body {
 	margin-right: 3px;
 }
 .teacherTbl {
-	background-color: #ffffff;
-	padding: 5px 20px;
-	margin: 15px 25px;
+	background-color: #fff;
+	border: 1px solid yellow;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
 }
 .yomigana {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
@@ -1494,6 +1500,15 @@ input[type=checkbox]:checked ~ div {
 	-webkit-border-radius: 7.5px;
 	border-radius: 7.5px;
 	background-color: #ffad00;
+	animation: colorTransition 1s infinite alternate;
+}
+@keyframes colorTransition {
+	0% {
+	    background-color: #ffad00;
+	}
+	100% {
+	    background-color: #c11;
+	}
 }
 .naviCheck + label {
   position: relative;
@@ -1565,21 +1580,64 @@ input[type=checkbox]:checked ~ event-item {
   display: none;
   position: relative;
 }
+.events {
+	text-align: center;
+}
 .event-head {
-	background-color: #e0e0e0;
-	padding: 10px 0px;
-	margin: 15px 0px;
-	color: #000000;
-	font-family: inherit;
-	border-radius: 10px;
-	border: 3px solid #ffffff;
-	cursor: pointer;
+	color: white;
+	border: solid 1px #ffffff;
+    padding: 10px;
+	margin: 10px auto;
+	display: inline-block;
+	width: 32%;
+	height: 100px;
+	vertical-align: top;
+	text-align: left;
+	position: relative;
+}
+.event-head .updated {
+	content: url("../img/updated_event.png");
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 .event-head a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 	text-decoration: none;
-	color: inherit;
 }
-
+.event-head:nth-of-type(5n + 1) {
+	background-color: #c73f28;
+}
+.event-head:nth-of-type(5n + 2) {
+	background-color: #eaaa00;
+}
+.event-head:nth-of-type(5n + 3) {
+	background-color: #5c739f;
+}
+.event-head:nth-of-type(5n + 4) {
+	background-color: #7d131a;
+}
+.event-head:nth-of-type(5n + 5) {
+	background-color: #93660d;
+}
+@media (max-width: 767px) {
+	.event-head {
+		width: 95%;
+		height: 80px;
+		margin: 5px auto;
+	}
+}
+.event_date {
+	position: absolute;
+	color: #ddd;
+	font-size: 12px;
+	line-height: 12px;
+	bottom: 10px;
+}
 .monthCal {
   background-color: #cc1111;
   border-radius: 50%;
@@ -2707,10 +2765,6 @@ input[type=checkbox]:checked ~ event-item {
   .list-inline a {
      font-size: 14px;
   }
-  .event-head {
-	padding: 3px;
-	margin-top: 8px;
-  }
   .calTbl {
     display: inline-block;
 	height: 80px;
@@ -2720,10 +2774,6 @@ input[type=checkbox]:checked ~ event-item {
     display: inline-block;
 	font-size: 20px;
 	padding-top: 28px;
-  }
-  .teacherTbl { 
-	padding: 5px 20px;
-	margin: 10px;
   }
 
 }
