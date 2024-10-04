@@ -188,6 +188,9 @@
 	border: solid 2px #cc1111;
 	padding: 3px;
 }
+.event-detail {
+	line-height: 1.4;
+}
 .event-detail ul {
 	margin-left: 20px;
 }

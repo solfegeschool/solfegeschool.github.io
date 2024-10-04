@@ -1,5 +1,4 @@
-/* Solfege School Website Stylesheet */
-/* Updated on 18 Aug 2017 */
+@charset "utf-8";
 
 /* ####   Variables: 
 max-width: 1000px;
@@ -19,12 +18,10 @@ brown: #660707;
 green: #88d03f;
    ####  fin Variables */
 
-@charset "UTF-8";
-
 html,
 body {
-	height: 100%;
-	min-height: 100%;
+/*	height: 100%;
+	min-height: 100%;*/
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -33,6 +30,20 @@ body {
 	content: "";
 	display: block;
 	clear: both;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+b {
+    font-weight: bold;
+}
+small {
+    font-size: smaller;
+}
+p {
+	line-height: 1.4;
+	margin-bottom: 10px;
 }
 /* Colored text */
 .red-text { color: #cc1111; }
@@ -57,8 +68,12 @@ body {
 .green-bg { background-color: #88d03f; }
 .gray-bg { background-color: #ebe2e2; }
 
-/* Colored underline */
-.red-underline {border-bottom: solid 1px #cc1111;}
+/* Colored border */
+.yellow_border th,
+.yellow_border td {
+	border: 1px solid #ffcf11;
+}
+
 
 @font-face {
 	font-family: JPFont;
@@ -73,6 +88,190 @@ body {
 		url('../fonts/makinas/Makinas-Scrap-5.otf') format('opentype') ;
 }
 
+/* Navigation */
+header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	max-width: 1200px;
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 100;
+}
+.header_wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+.non_sticky_header {
+	position: relative;
+	max-width: 1200px;
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 100;
+}
+#logo {
+	position: absolute;
+	content: url("../img/logoTransRed2.png");
+	top: -12px;
+	left: 10px;
+	height: 120px;
+	width: 120px;
+	transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+}
+.nav_list {
+	position: absolute;
+	width: 700px;
+	height: 80px;
+	margin-left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+}
+.nav_list ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.nav_list ul li:nth-child(10) {
+	margin-right: 60px;
+}
+/* Navigation updated items */
+.nav_list ul li:nth-child(3)::after,
+.nav_list ul li:nth-child(4)::after {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	-moz-border-radius: 7.5px;
+	-webkit-border-radius: 7.5px;
+	border-radius: 7.5px;
+	background-color: #ffad00;
+	animation: colorTransition 1s infinite alternate;
+}
+@keyframes colorTransition {
+	0% {
+	    background-color: #ffad00;
+	}
+	100% {
+	    background-color: #c11;
+	}
+}
+@media screen and (max-width: 768px) {
+	header {
+		height: 70px;
+		width: 100%;
+	}
+	#logo {
+		height: 80px;
+		width: 80px;
+		top: -5px;
+	}
+	.nav_list {
+		background-image: url(../img/menuhamburger.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+		margin: 0;
+		position: absolute;
+		top: 10px;
+		right: 0;
+		transform: none;
+	}
+	.nav_list ul {
+		position: absolute;
+		display: none;
+		width: 200px;
+		top: 60px;
+		right: 0;
+		margin: 0;
+	}
+	.nav_list ul li {
+		display: block;
+		width: 200px;
+		text-align: center;
+		background-color: #eee;
+		border-bottom: 1px solid #000;
+	}
+	.nav_list ul li a {
+		height: 40px;
+		color: #222222 !important;
+	}
+	.nav_list ul li a::after {
+		display: none;
+	}
+	.nav_list ul li:nth-child(11),
+	.nav_list ul li:nth-child(12),
+	.nav_list ul li:nth-child(13),
+	.nav_list ul li:nth-child(14) {
+		display: none;
+	}
+}
+/* new nav */
+.nav_list ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	position: relative;
+	padding-bottom: 10px;
+}
+.nav_list ul li a::after {
+	height: 1px;
+	position: absolute;
+	content: "";
+	background-color: #cc1111;
+	transition: all 0.35s ease;
+	width: 0;
+}
+.nav_list ul li a::after {
+	bottom: 0;
+	left: 0;
+}
+.nav_list ul li a:hover::after {
+	width: 100%;
+}
+#FBlogo {
+	content: url("../img/fbW.png");
+	height: 15px;
+	display: inline-block;
+}
+#FBlogo:hover {
+	content: url("../img/fbR.png");
+}
+#youtubelogo {
+	content: url("../img/youtubeW.png");
+	height: 13px;
+	display: inline-block;
+}
+#youtubelogo:hover {
+	content: url("../img/youtubeR.png");
+}
+#twitterlogo {
+	content: url("../img/twitterW.png");
+	height: 13px;
+	display: inline-block;
+}
+#twitterlogo:hover {
+	content: url("../img/twitterR.png");
+}
+#instagramlogo {
+	content: url("../img/instagramW.png");
+	height: 16px;
+	display: inline-block;
+}
+#instagramlogo:hover {
+	content: url("../img/instagramR.png");
+}
 /* Content Style */
 .en-title {
   font-family: Arial;
@@ -332,10 +531,24 @@ body {
   transform: translateY(0px);
 }
 /* Lists */
+ul {
+	list-style-type: disc;
+	margin: 10px;
+}
+ol {
+	list-style-type: decimal;
+	margin: 10px;
+}
+ol ul {
+	list-style-type: circle;
+	margin: 10px;
+}
 .lista-ol {
   padding-left: 25px;
 }
-
+.lista-ol li {
+	margin-bottom: 10px;
+}
 /* Header */
 #top {
   position: relative;
@@ -354,6 +567,7 @@ body {
 	font-size: 26px;
 	padding-top: 28px;
 	line-height: 1em;
+	margin-bottom: 50px;
 }
 
 .pageTitle a {
@@ -611,7 +825,6 @@ body {
 }
 #bg-teachers {
   position: relative;
-  top: 70px;
   background-color: #333333;
  // background-image: url("../img/teachersBG5.png");
 	background-position: top;
@@ -638,7 +851,6 @@ body {
 
 #bg-courses {
   position: relative;
-  top: 70px;
   background-color: #333333; //#004060;
   background-image: url("../img/solfeJet2.png");
 	background-position: top;
@@ -651,7 +863,6 @@ body {
 }
 .courses_topImg {
   position: relative;
-  top: 70px;
   background-image: url("../img/coursesBGtop3.png");
 	background-position: top;
 	background-repeat: no-repeat;
@@ -663,7 +874,6 @@ body {
 }
 #bg-courses_bottom {
   position: relative;
-  top: 70px;
   background-color: #333333; //#004060;
  /* background-image: url("../img/coursesBGbottom.png");
 	background-position: top;
@@ -686,7 +896,6 @@ body {
 }
 #bg-events {
   position: relative;
-  top: 70px;
   background-color: #f9f2e4;
 /*  background-image: url("../img/event/specialConcert.png");
 	background-position: top;
@@ -770,7 +979,6 @@ body {
 	max-width: 1200px;
 	min-height: 100px;
 	margin: auto;
-	top: 70px;
 	z-indez: 3;
 }
 
@@ -925,9 +1133,7 @@ body {
 	.news {
 		min-height: 400px;
 	}
-	.newsHeader {
-		top: 100px;
-	}
+
 	.newsIcon {
 		width: 40%;
 	}
@@ -1023,7 +1229,7 @@ body {
 	width: 100%;
 	max-height: 90%;
 	background-color: #dddddd;
-	z-index: 3;
+	z-index: 1000;
 	display: none;
 	padding: 30px 10px;
 	padding-bottom: 1em;
@@ -1138,15 +1344,28 @@ body {
 }
 .courseDtlTbl {
 	background: white;
-	min-width: 100%;
-	width: 500px;
+	min-width: 500px;
+	width: 100%;
+	cellspacing: 0; 
+	cellpaddding: 10px;
+	border-collapse: collapse;
 }
 .courseDtlTbl th {
 	background: #f0f0f0;
 }
 .courseDtlTbl td,
 .courseDtlTbl th {
-	 padding: 3px;
+	 padding: 5px;
+	 vertical-align: middle;
+}
+/* Colored border */
+.yellow_border th,
+.yellow_border td {
+	border: 1px solid #ffcf11;
+}
+.green_border th,
+.green_border td {
+	border: 1px solid #55cfc1;
 }
 .mayorCol {
   width: 100%;
@@ -1304,7 +1523,10 @@ body {
 	border: 1px solid yellow;
 	width: 90%;
 	margin: 10px auto;
-	padding: 10px;
+}
+.teacherTbl tr td {
+	padding: 15px;
+	vertical-align: middle;
 }
 .yomigana {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
@@ -1410,6 +1632,7 @@ input[type=checkbox]:checked ~ div {
   max-width: 1000px;
   height: 100%;
 }
+/*
 #logo {
   position: absolute;
   top: -15px;
@@ -1509,7 +1732,7 @@ input[type=checkbox]:checked ~ div {
 	100% {
 	    background-color: #c11;
 	}
-}
+}*/
 .naviCheck + label {
   position: relative;
   top: 10px;
@@ -1750,7 +1973,33 @@ input[type=checkbox]:checked ~ event-item {
 	border-left: solid 10px #cc1111;
 	border-bottom: solid 1px #cc1111;
 }
-
+.supp_info_box {
+	border: solid 1px #000000; 
+	padding: 10px; 
+	background: #f5f5f5;
+	margin: 30px 10px;
+}
+.red-underline {
+	border-bottom: solid 1px #cc1111;
+	margin-top: 10px;
+}
+.supp_banktbl {
+	border: 1px solid #007767; 
+	width: 100%;
+	cellspacing: 0;
+	cellpaddding: 20px;   
+	border-collapse: collapse;
+}
+.supp_banktbl td {
+	border: 1px solid #007767;
+}
+.supp_history {
+	font-size: 14px;
+	line-height: 1.7;
+}
+.supp_pics_info td {
+	padding: 5px;
+}
 /* Corporate Page */
 
 .historySq {
@@ -1878,11 +2127,11 @@ input[type=checkbox]:checked ~ event-item {
 }
 
 @media (min-width: 768px) {
-#logo {
+/*#logo {
   top: -30px;
   height: 150px;
   width: 150px;
-}
+}*/
 .rightSide-text { float: right; font-size: 14px; }
 //.en-title { font-size: 45px; line-height: 15px;}
 .chapter-title { font-size: 16px; }
@@ -2718,7 +2967,7 @@ input[type=checkbox]:checked ~ event-item {
   }
   .setAnchor {
     top: -99px;
-  }
+  }/*
   .betweenSectors,
   .navbarTopPadding,
   .top_img,
@@ -2731,7 +2980,7 @@ input[type=checkbox]:checked ~ event-item {
   #bg-courses,
   #bg-events {
     top: 100px;
-  }
+  }*/
   #bg-news {
   	top: 50px;
   }

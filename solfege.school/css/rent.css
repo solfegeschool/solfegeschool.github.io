@@ -13,35 +13,40 @@
   margin-right: auto;
   padding: 0;
 }
+.rent-top {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 10px auto;
+}
 .center_title {
 	color: #000000;
-	padding: 3px;
+	padding: 5px;
 	font-weight: bold;
 	text-align: center;
 	background-color: #f0f0f0;
 	border: solid 3px #ffcf11;
 	border-radius: 5px;
+	margin-bottom: 10px;
 }
 .rent_TblTitle {
 	color: #000000;
-	padding: 5px;
+	padding: 10px;
 	margin: 0px 5px 0px 0px;
 	font-weight: bold;
 	text-align: left;
 	background-color: rgba(255,255,255, 0.7);
 	border-left: solid 10px #ffcf11;
-	//border-bottom: solid 1px #ffcf11;
 }
 .white-bg {
-  position: relative;
-  background-color: rgba(255,255,255, 0.6);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
+	position: relative;
+	background-color: rgba(255,255,255, 0.6);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
 }
 .bg-content {
   position: relative;
@@ -78,15 +83,24 @@
   margin-bottom: 20px;
 }
 .table_rent {
+	width: 100%;
   border-collapse: collapse;
+  border: 1px solid #ffcf11;
+  padding: 10px;
 }
 .table_rent th {
   background-color: #e0e0e0;
   color: #000000;
+  border: 1px solid #ffcf11;
+  vertical-align: middle;
+  padding: 10px;
 }
 .table_rent td {
   background-color: #ffffff;
   color: #000000;
+  border: 1px solid #ffcf11;
+  vertical-align: middle;
+  padding: 10px;
 }
 /* Responsive Design */
 @media (max-width: 767px) {

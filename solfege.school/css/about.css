@@ -4,7 +4,6 @@
 
 .bg_about {
   position: relative;
-  top: 10px;
   background-color: #cc8f8f;
   background-image: url("../img/roof-xs-min.png");
   background-position: top;
@@ -89,6 +88,9 @@
 .photo_txt {
   max-width: 600px;
 }
+.photo_txt td { 
+	padding: 5px;
+}
 .growingDots {
 	position: relative;
 	background-image: url("../img/dots.svg");
@@ -141,18 +143,32 @@
 	background-color: #000000;
 	border: 8px solid #000000;
 }
+.bookTbl {
+	 border: 0; 
+	 cellspacing: 0; 
+	 cellpadding: 0; 
+	 width: 100%; 
+	 margin-left: 50px;
+}
+.bookTbl td {
+	vertical-align: bottom;
+}
 .bioTbl {
-	margin-left: 10px;
-	padding: 1.6em;
+	padding: 10px;
 	background-color: rgba(0,0,0,.5);
+	border: 0; 
+	cellspacing: 0; 
+	cellpadding: 0; 
+	width: 90%; 
+	height: 100%;
+}
+.bioTbl td {
+	padding: 5px;
 }
 .bioTbl td {
 	padding-left: 10px;
 }
-.bookTbl{
-	padding: 1.6em;
-	background-color: rgba(255,255,255,.7);
-}
+
 .content_text {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
   font-size: 14px;
@@ -197,6 +213,12 @@ a {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+.respuesta {
+	color: #111;
+	font-size: 13px;
+	line-height: 1.4;
+	font-weight: normal;
+}
 .granQ {
 	font-size: 80px;
 	font-weight: bold;
@@ -211,17 +233,27 @@ a {
   margin-right: auto;
   padding: 50px 50px;
 }
+.paperTbl {
+	 border: 0;
+	 cellspacing: 0; 
+	 cellpadding: 0; 
+	 width: 100%; 
+	 height: 100%;
+}
+.paperTbl td {
+	vertical-align: middle;
+}
 @media (min-width: 768px) {
+	.respuesta { font-size: 15px; }
 	.content_text,
 	.small-text { font-size: 16px; }
-	.bg_about { top: 50px;}
 	.spaceBetweenSection { height: 80px;}
 	.space4newspapersection { height: 250px;}
 	.bg_about {background-image: url("../img/roof-min.png");}
 	.bg_bio {background-image: url("../img/bio-bg-min.jpg");}
 	.bg_history {background-image: url("../img/building-min.jpg");}
 	.bg-newspaper {background-image: url("../img/bg-papers-min.jpg");}
-	
+	.bookTbl {height: 600px;}
 }
 @media (min-width: 992px) {
 	.content_text,

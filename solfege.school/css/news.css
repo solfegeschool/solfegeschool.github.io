@@ -5,7 +5,9 @@
   background:#ffffff; 
   border-bottom: 0.1px solid #cc1111;
 }
-
+.newsHeaderContent tr td {
+	vertical-align: middle;
+}
 td.news-link{
   background:#ffffff; 
   border-bottom: 0.1px solid #cc1111;
