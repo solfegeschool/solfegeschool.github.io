@@ -8,6 +8,7 @@
 		<meta name="author" content="" />
 		<title>Solfege School</title>
 		<link rel="icon" type="image/png" href="./img/logoTransRed2.png" />
+		<link rel="stylesheet" href="./css/reset.css?v=0.1" />
 		<link rel="stylesheet" href="./css/common.css?v=1.1" />
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRH0FVSS54"></script>
@@ -20,66 +21,35 @@
 		</script>
 	</head>
 
-	<body>			<!-- header -->
-				<div class="navibar">
-			<div class="navibarContent">
-				<div class="hidden-xs visible-sm visible-md visible-lg">
-					<div id="logo"></div>
-					<ul class="list-inline">
-						<li><a href="./index.html">HOME</a></li>
-						<li><a href="./index.html#wolf">ABOUT US</a></li>
-						<li><a href="./index.html#courses">COURSES</a></li>
-						<li><a href="./index.html#teachers">TEACHERS</a></li>
-						<li><a href="./index.html#events">EVENTS</a></li>
-						<li><a href="./corporate.html">法人案内</a></li>
-						<li><a href="./support.html">サポートのお願い</a></li>
-					<br />
-					
-						<li><a href="./news.html">お知らせ</a></li>
-						<li><a href="./rent.html">貸ホール・貸練習室</a></li>
-						<li><a href="./access.html">お問合せ</a></li>
-						<li></li>
-						<li></li>
+	<body>
+		<header>
+			<div class="header_wrapper">
+				<a href="index.html"><div id="logo"></div></a>
+				<div class="nav_list">
+					<ul>
+						<li><a href="index.html#">HOME</a></li>
+						<li><a href="index.html#wolf">ABOUT US</a></li>
+						<li><a href="index.html#courses">COURSES</a></li>
+						<li><a href="index.html#teachers"><span class="new">TEACHERS</span></a></li>
+						<li><a href="index.html#events"><span class="new">EVENTS</span></a></li>
+						<li><a href="corporate.html">法人案内</a></li>
+						<li><a href="support.html">サポートのお願い</a></li>
+						<li><a href="news.html">お知らせ</a></li>
+						<li><a href="rent.html">貸ホール・貸練習室</a></li>
+						<li><a href="access.html">お問合せ</a></li>
 						<li><a href="https://www.youtube.com/channel/UCR06qMz6qVZc8Ng_LfMMxoQ" target="_blank"><div id="youtubelogo"></div></a></li>
 						<li><a href="https://twitter.com/SolfegeSchool/" target="_blank"><div id="twitterlogo"></div></a></li>
 						<li><a href="https://www.facebook.com/solfegeschool/" target="_blank"><div id="FBlogo"></div></a></li>
 						<li><a href="https://www.instagram.com/solfegeschool/" target="_blank"><div id="instagramlogo"></div></a></li>
 					</ul>
-				</div><!-- hidden-xs -->
-				<div class="visible-xs hidden-sm hidden-md hidden-lg">
-					<table border="0" cellspacing="0" cellpadding="5" width="100%" height="100%">
-						<tr>
-							<td align="center"><a href="./index.html"><div id="logo"></div></a></td>
-							<td align="right">
-								<!--a href="https://www.youtube.com/channel/UCR06qMz6qVZc8Ng_LfMMxoQ" target="_blank"><div id="youtubeFooter"></div></a>
-								<a href="https://www.facebook.com/solfegeschool/" target="_blank"><div id="FBFooter"></div></a-->
-								<input type="checkbox" class="naviCheck" checked="checked" id="navicheckbox" style="display: none;" />
-								<label class="navi-button" for="navicheckbox"></label>
-								<div id="gNavi">
-									<ul>
-										<li><a class="wide" href="./news.html">お知らせ</a></li>
-										<li><a class="wide" href="./index.html#wolf">ABOUT US</a></li>
-										<li><a class="wide" href="./index.html#courses">COURSES</a></li>
-										<li><a class="wide" href="./index.html#teachers">TEACHERS</a></li>
-										<li><a class="wide" href="./index.html#events">EVENTS</a></li>
-										<li><a class="wide" href="./corporate.html">法人案内</a></li>
-										<li><a class="wide" href="./support.html">サポートのお願い</a></li>
-										<li><a class="wide" href="./rent.html">貸ホール・貸練習室</a></li>
-										<li><a class="wide" href="./access.html">お問合せ</a></li>
-									</ul>
-								</div><!-- gNavi -->
-								
-							</td>
-						</tr>
-					</table>
-				</div><!-- visible-xs -->
-			</div><!-- navibarContent -->
-		</div><!-- navibar -->
+				</div><!--nav_list-->
+			</div><!-- header_wrapper -->
+		</header>
 		
 		<div class="container-fluid">
 		
 			<div class="wrapper">
-				<div class="row navbarTopPadding"><!-- Content body -->
+				<div class="row"><!-- Content body -->
 					<div class="col-xs-offset-1 col-xs-5">
 						<div class="pageTitle">サポート<br><span class="black-text">のお願い</span></div>
 					</div>
@@ -113,39 +83,38 @@
 									<div class="donationSq">
 										<p class="supp_subChap">寄付趣意書</p>
 										<p class="red-underline"><b>寄付及び賛助会の趣旨</b></p>
-											当財団は社会教育財団として、楽譜の正しい理解を基本とする音楽基礎教育を広く普及することにより、音楽芸術が多くの人びとにとって生涯の心の糧になることを目標に事業を行っています。こうした教育の一層の充実を図るため、経済基盤を強化する目的でご寄付（寄付金及び賛助会費）を運用いたします。 
-										<br /><br />
-										<div style="border: solid 1px #000000; padding: 10px; background: #f5f5f5">
+											<p>当財団は社会教育財団として、楽譜の正しい理解を基本とする音楽基礎教育を広く普及することにより、音楽芸術が多くの人びとにとって生涯の心の糧になることを目標に事業を行っています。こうした教育の一層の充実を図るため、経済基盤を強化する目的でご寄付（寄付金及び賛助会費）を運用いたします。 </p>
+										
+										<div class="supp_info_box">
 											<b><span class="blue-text">寄付金</span><small>（いつでも、おいくらからでも結構です）</b><br><br>
 											*随時受付<br>
 											※2000 円を超える金額のご寄付は寄付金控除の対象となります<br>
 											（詳細は下記をご参照ください）</small>
 										</div>
-										<br /><br />
-										<div style="border: solid 1px #000000; padding: 10px; background: #f5f5f5"><b><span class="blue-text">賛助会費</span><small>（ソルフェージスクールを継続的にサポートしてくださる方を募集しております）</b><br><br>
+										<div class="supp_info_box"><b><span class="blue-text">賛助会費</span><small>（ソルフェージスクールを継続的にサポートしてくださる方を募集しております）</b><br><br>
 											*入会随時：年会費制<br />
 											<b>個人会員・１口</b>&emsp;&yen;5,000<br /><b>法人会員・１口</b>&emsp;&yen;50,000<br>
 											<!--※ 賛助会費には、寄付金控除の他、以下の<b>特典</b>が付きます<br>
 											各行事のご案内、NEWSLETTER の送付<br>
 											・ソルフェージスクールの主催する各種演奏会・講習会等の入場・参加料の割引--></small>
 										</div>
-										<br /><br />
 										<p class="red-underline"><b>特典</b></p>
+										<p>
 											・年間活動報告「ソルフェージスクールNEWSLETTER」を配布<br />
 											・ソルフェージスクールの主催する各種演奏会・講習会等の入場・参加料の割引<br />
 											・<small><small>ご入金いただいた日から1年間の適用とさせていただきます</small></small>
-										<br /><br />
-										<p class="red-underline"><b>ご入金方法</b></p><br>
+										</p>
+										<p class="red-underline"><b>ご入金方法</b></p>
+										<p>
 										<a href="./doc/support/support.pdf">「寄付申込書」</a>にご記入いただき、次の ①②③ いずれかの方法でご提出ください。<br>
 										<small>① <b>FAX：</b>03-3953-8517<br>
 										② <b>Mail：</b>sol.music@dream.jp <small>（PDFまたは写真でも結構です）</small><br>
 										③ <b>ソルフェージスクール窓口</b><br>
 										&emsp;<small><u>「寄付申込書」の内容をもとに「 寄付金控除証明書 」の作成をいたしますので、必ずご提出ください 。</u><br>
 										&emsp;※2,000 円を超える金額が寄付金控除対象となります</small>
-										<br><br>
-										</small>
-										下記の いずれかの方法でご入金ください。
-										<table border="1" cellspacing="0" cellpaddding="20px" width="100%" bordercolor="#007767" style="border-collapse: collapse;">
+										</small></p>
+										<p>下記の いずれかの方法でご入金ください。</p>
+										<table class="supp_banktbl">
 											<tbody>
 												<tr align="center">
 													<td style="background: #f5f5f5"><b>＜払込取扱票による送金＞</b></td>
@@ -153,27 +122,31 @@
 												</tr>
 												<tr align="left">
 													<td style="padding: 10px"><small><b><u>払込場所</u></b>&emsp; ゆうちょ銀行（郵便局）<br>
-														<b><u>口座記号</u></b>&emsp; ００１５０－５<br>
-														<b><u>口座番号</u></b>&emsp; ７００９９<br>
-														<b><u>加入者名</u></b>&emsp; 公益財団法人ソルフェージスクール<br>
-														<small><span class="red-text">（<b>赤色</b>払込取扱票）</span>送金手数料が受取人負担です。<br>
-														<span class="blue-text">（<b>青色</b>払込取扱票）</span>送金手数料が払込人様のご負担です。<br>
-														<b>=ご注意＝</b>&emsp; どちらの払込取扱票も、現金支払いの場合は加算料金（１件110円）が払込人様のご負担となりますのでご注意ください。ゆうちょ銀行口座の通帳またはキャッシュカード支払いの場合は加算料金はかかりません。
-														</small></small>
+														<p>
+															<b><u>口座記号</u></b>&emsp; ００１５０－５<br>
+															<b><u>口座番号</u></b>&emsp; ７００９９<br>
+															<b><u>加入者名</u></b>&emsp; 公益財団法人ソルフェージスクール<br>
+															<small><span class="red-text">（<b>赤色</b>払込取扱票）</span>送金手数料が受取人負担です。<br>
+															<span class="blue-text">（<b>青色</b>払込取扱票）</span>送金手数料が払込人様のご負担です。<br>
+															<b>=ご注意＝</b>&emsp; どちらの払込取扱票も、現金支払いの場合は加算料金（１件110円）が払込人様のご負担となりますのでご注意ください。ゆうちょ銀行口座の通帳またはキャッシュカード支払いの場合は加算料金はかかりません。
+															</small></small>
+														</p>
 													</td>
 													
 													<td style="padding: 10px" class="hidden-xs visible-sm" width="50%">
-														<small><span class="blue-text">＊<b>他金融機関</b>から振込の場合</span><br>
-															<b><u>銀行名</u></b>&emsp; ゆうちょ銀行<br>
-															<b><u>金融機関コード</u></b>&emsp; ９９００<br>
-															<b><u>店番</u></b>&emsp; ００８<br>
-															<b><u>預金種目</u></b>&emsp; 普通<br>
-															<b><u>店名</u></b>&emsp; 〇〇八（ゼロゼロハチ） <br> 
-															<b><u>口座番号</u></b>&emsp; ３８１８０８９<br>
-															<b><u>口座名</u></b>&emsp; ザイ）ソルフェージスクール<br>
-															<span class="blue-text">＊<b>ゆうちょ銀行</b>からの振込の場合</span><br>
-															<b><u>記号</u></b>&emsp; １００９０&emsp; <b><u>番号</u></b>&emsp; ３８１８０８９１<br>
-														</small>
+														<p>
+															<small><span class="blue-text">＊<b>他金融機関</b>から振込の場合</span><br>
+																<b><u>銀行名</u></b>&emsp; ゆうちょ銀行<br>
+																<b><u>金融機関コード</u></b>&emsp; ９９００<br>
+																<b><u>店番</u></b>&emsp; ００８<br>
+																<b><u>預金種目</u></b>&emsp; 普通<br>
+																<b><u>店名</u></b>&emsp; 〇〇八（ゼロゼロハチ） <br> 
+																<b><u>口座番号</u></b>&emsp; ３８１８０８９<br>
+																<b><u>口座名</u></b>&emsp; ザイ）ソルフェージスクール<br>
+																<span class="blue-text">＊<b>ゆうちょ銀行</b>からの振込の場合</span><br>
+																<b><u>記号</u></b>&emsp; １００９０&emsp; <b><u>番号</u></b>&emsp; ３８１８０８９１<br>
+															</small>
+														</p>
 													</td>
 												</tr>
 												<tr class="visible-xs hidden-sm" align="center">
@@ -183,7 +156,7 @@
 												</tr>
 												<tr class="visible-xs hidden-sm">
 													<td style="padding: 10px">
-														<small><span class="blue-text">＊<b>他金融機関</b>から振込の場合</span><br>
+														<p><small><span class="blue-text">＊<b>他金融機関</b>から振込の場合</span><br>
 															<b><u>銀行名</u></b>&emsp; ゆうちょ銀行<br>
 															<b><u>金融機関コード</u></b>&emsp; ９９００<br>
 															<b><u>店番</u></b>&emsp; ００８<br>
@@ -193,7 +166,7 @@
 															<b><u>口座名</u></b>&emsp; ザイ）ソルフェージスクール<br>
 															<span class="blue-text">＊<b>ゆうちょ銀行</b>からの振込の場合</span><br>
 															<b><u>記号</u></b>&emsp; １００９０&emsp;<b><u>番号</u></b>&emsp; ３８１８０８９１<br>
-														</small>
+														</p></small>
 													</td>
 												</tr>
 												
@@ -288,7 +261,7 @@
 									<div id="ourschool" class="setAnchor"></div>
 									<div class="onepage" style="color: #000000;">
 										<p class="supp_subChap">ソルフェージスクールの紹介</p>
-										<p><small><small>ソルフェージスクールは、公益財団法人ソルフェージスクールが運営する音楽教室です。<br>
+										<p class="supp_history">ソルフェージスクールは、公益財団法人ソルフェージスクールが運営する音楽教室です。<br>
 											1961 年に市ヶ谷の山脇服飾美術学院のご好意により一室を借りて「ソルフェージ教室」として開校、1967 年に現在
 											の場所である目白へ移転し「ソルフェージスクール」へ改称しました。創設から今日に至るまで、幼児から大人までプロ
 											アマを問わず音楽を楽しく学びたい人々のために、音楽の高い芸術性を極め研究し、豊かな感性を育み続けております。
@@ -305,7 +278,7 @@
 											…その生き生きとした様子を目にするたび、私達はソルフェージスクール創設者 大村多喜子先生の精神が今も生き続けて
 											いることを感じます。そしてその音楽教育の理念をこれからも守り伝えていくことが使命であると考えています。<br><br>
 											私達は、大村多喜子先生そして吉村順三先生の、音楽を愛する温かな心から生まれたこの場所を、これからも大切に使
-											い守り続けていきたいと考えております。</small></small>
+											い守り続けていきたいと考えております。
 										</p>
 										<img src="./img/supportgraph1.gif" class="img-responsive" />
 										<br>
@@ -314,7 +287,7 @@
 									<div id="oureducation" class="setAnchor"></div>
 									<div class="onepage" style="color: #000000;">
 										<p class="supp_subChap">ソルフェージスクール独自の教育方法はこうして生まれました</p>
-										<p><small><small>
+										<p class="supp_history">
 										吉村順三先生はアメリカの建築家 Antonin Raymond 氏に師事していました。その Antonin Raymond 氏のご夫人で
 										ある Noemi さんは音楽に造詣が深く、子供の頃に受けた音楽教育の教本をずっと大切に保管されていました。ソルフェ
 										ージスクール創設前、音楽の基礎を教える学校を作りたいと考えていた大村多喜子先生はその熱い思いを Mrs.Raymond
@@ -329,43 +302,41 @@
 										が音楽を学んだ時に使っていた教材のお話が基になっています。当時その現物はなかったため、吉村順三先生が彼女の記
 										憶を辿ってデザインして作りました。<br><br>
 										…実は今、インターネットで検索すると、Mrs.Raymondが使っていたと思われる教材（いわば「ソルフェージェット」のオリジナル）の画像が出てくるのですが、「ソルフェージェット」とそっくりでとても驚きます。
-										<br>
-										<table>
+										</p>
+										<table class="supp_pics_info">
 											<tr>
 												<td><img src="./img/supportgraph2.jpg" class="img-responsive" /></td>
 												<td><img src="./img/supportgraph3.jpg" class="img-responsive" /></td>
 											</tr>
 											<tr class="blue-text" style="font-size: 0.5em;">
-												<td><b>左:</b> 現在もスクールで使用しているソルフェージ教本</td>
-												<td><b>右:</b> ソルフェージェット</td>
+												<td><b>左:</b> 現在もスクールで使用しているソルフェージ教本<br></td>
+												<td><b>右:</b> ソルフェージェット<br></td>
 											</tr>
-										</table><br>
+										</table>
+										<p class="supp_history"><br>
 										吉村順三先生がソルフェージェットを作ったのは1960年代。もちろんインターネットなどはなく、Mrs.Raymondのお話だけを頼りに作った教材が、Mrs.Raymondが実際に使っていたものとそっくりだとは、連想ゲームがとてもうまくいったようですね。
-
-										</small></small>
 										</p>
-										<br>
 									</div><!-- onepage -->
 									<br>
 									<div id="steinwaypiano" class="setAnchor"></div>
 									<div class="onepage" style="color: #000000;">
 										<p class="supp_subChap">ソルフェージスクールのスタインウェイピアノについて</p>
-										<p><small><small>
+										<p class="supp_history">
 										ソルフェージスクール3階のホールには、2台のグランドピアノが設置してあります。そのうちの1台、スタインウェイ。世界中のコンサートホールで使われ、多くのピアニストから絶大な人気を誇る世界最高峰のピアノとして知られています。<br>
 										普段のスクールではカバーをかけ大切に保管していますが、発表会やコンサートなど大切なシーンで活躍してきました。しかし、ソルフェージスクールにやってきて以来40年近くが経過し、残念ながら時の経過に抗えない不具合も重なっています。今回、専門家の方に調査をしていただき、共鳴板のヒビ補修や多数箇所のパーツ交換など、大規模な修繕が必要であることが分かりました。今後も長く大切に弾き続けていくために、ソルフェージスクールでの学びのために、今しっかりと修繕をしておく必要があります。<br><br>
 										スタインウェイの修繕に関しては、約350万円の費用がかかります。今、同ランクのピアノは新品で約2000万円、中古でも1,000万円の価値があるそうです。ソルフェージスクールのピアノも、修理をすることでその1,000万円の価値を今後も維持することが可能になります。<br><br>
 										今回皆様にお力添えいただく寄付金をもとにピアノを生まれ変わらせ、これからも末永くソルフェージスクール独自の音楽教育活動の普及につとめてまいりたいと思います。未来の音楽教育を明るくすることが私達の社会的役割であり、ソルフェージスクールの益々の前進のためにも、何卒お力添えを賜りますよう宜しくお願いいたします。<br><br>
-										</small></small>
+										
 										</p>
 										<img src="./img/supportgraph4.jpg" class="img-responsive" width="200px" /><br>
 										<p><b>ソルフェージスクールのスタインウェイはこんなピアノです</b></p><br>
-										<p><small><small>
+										<p class="supp_history">
 										<u><b>♪ 現代では珍しい艶消し塗装仕上げのコンサートピアノ</b></u><br>
 										スタインウェイのフルコンサートピアノには、艶出し塗装仕上げのものと艶消し塗装仕上げのものがあります。現在通常販売されているフルコンサートピアノは全て黒色艶出塗装仕上げのピアノとなっていますが、今から数十年前までは、日本では長い間艶消し塗装仕上げのピアノが販売されていました。（また、木材の質については当時のものの方が良く、修繕して状態を維持する価値は十分にあるそうです。）<br><br>
 										ソルフェージスクールにあるスタインウェイは1983年に縁あって神戸からやってきた、艶消し塗装仕上げのもの。光沢を抑えた静謐な佇まいは、スクールの雰囲気に寄り添ってくれているかのようです。<br><br>
 										<u><b>♪ セミコンサートグランドピアノ「C-227」モデル</b></u><br>
 										ソルフェージスクールのスタインウェイは「<b>C-227</b>」というモデルのもので、同じくスタインウェイのD-274モデルとともにコンサートピアノの最高峰と謳われています。大ホールでのフルコンサートに使用されるDモデルに対し、Cモデルは中・小規模のホールに向いており、透明感溢れる高音から深く包み込まれるような低音まで、多彩な響きが特徴的で、迫力あるフォルテも繊細なピアニシモも美しく奏でることができます。
-										</small></small>
+										
 										</p>
 									</div><!-- onepage -->
 								</div><!-- col -->
@@ -380,7 +351,7 @@
 		
 		<!-- Footer -->
 		<div id="footer" class="setAnchor"></div>
-		<div class="footer navbarTopPadding">
+		<div class="footer">
 			<div class="footer_content">
 				<ul class="footer_list">
 					<li><a href="mailto:sol.info@dream.jp"><span class="glyphicon glyphicon-envelope"></span></a></li>

@@ -1,17 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="ja">
-	<!-- Solfege School Ver. Mar 2018 (website made from scratch!)-->
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="ソルフェージスクールは、公益財団法人ソルフェージスクールが運営する音楽教室です。1961年市ヶ谷に「ソルフェージ教室」として開校して以来、今日まで連綿と続く音楽教室です。楽しく学びたい人々のために、素人・専門家を問わず、音楽の高い芸術性を極め研究し、豊かな感性を育みます。
-		Solfege School is founded by the violinist Takiko Omura in 1961, now managed by the Solfege School Foundation. We offer different education courses for each student's purposes and skills." />
+		Solfege School is founded by the violinist Takiko Omura in 1961, now managed by the Solfege School Foundation. We provide flexible learning methods designed to meet the unique needs and purposes of every student." />
 		
 		<title>Solfege School</title>
 		<link rel="icon" type="image/png" href="./img/logoTransRed2.png" />
-		<link rel="stylesheet" href="./css/normalize.css?v=0.1" />
+		<link rel="stylesheet" href="./css/reset.css?v=0.1" />
 		<link rel="stylesheet" href="./css/common.css?v=1.7" />
+		
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRH0FVSS54"></script>
 		<script>
@@ -34,12 +33,11 @@
     </div>
 
 	<!-- header -->
-		<div class="navibar">
-			<div class="navibarContent">
-				<div class="hidden-xs visible-sm visible-md visible-lg">
-					<div id="logo"></div>
-					
-					<ul class="list-inline">
+		<header>
+			<div class="header_wrapper">
+				<a href="#"><div id="logo"></div></a>
+				<div class="nav_list">
+					<ul>
 						<li><a href="#">HOME</a></li>
 						<li><a href="#wolf">ABOUT US</a></li>
 						<li><a href="#courses">COURSES</a></li>
@@ -47,51 +45,20 @@
 						<li><a href="#events"><span class="new">EVENTS</span></a></li>
 						<li><a href="./corporate.html">法人案内</a></li>
 						<li><a href="./support.html">サポートのお願い</a></li>
-					<br />
-					<!--ul class="list-inline" -->
-						<li><br><a href="./news.html">お知らせ</a></li>
+						<li><a href="./news.html">お知らせ</a></li>
 						<li><a href="./rent.html">貸ホール・貸練習室</a></li>
 						<li><a href="./access.html">お問合せ</a></li>
-						<li></li>
-						<li></li>
 						<li><a href="https://www.youtube.com/channel/UCR06qMz6qVZc8Ng_LfMMxoQ" target="_blank"><div id="youtubelogo"></div></a></li>
 						<li><a href="https://twitter.com/SolfegeSchool/" target="_blank"><div id="twitterlogo"></div></a></li>
 						<li><a href="https://www.facebook.com/solfegeschool/" target="_blank"><div id="FBlogo"></div></a></li>
 						<li><a href="https://www.instagram.com/solfegeschool/" target="_blank"><div id="instagramlogo"></div></a></li>
 					</ul>
-				</div><!-- hidden-xs -->
-				<div class="visible-xs hidden-sm hidden-md hidden-lg">
-					<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
-						<tr valign="bottom">
-							<td align="center"><a href="#"><div id="logo"></div></a></td>
-							<td align="right">
-								<!--a href="https://www.youtube.com/channel/UCR06qMz6qVZc8Ng_LfMMxoQ" target="_blank"><div id="youtubelogo"></div></a>
-								<a href="https://www.facebook.com/solfegeschool/" target="_blank"><div id="FBlogo"></div></a-->
-								<input type="checkbox" class="naviCheck" checked="checked" id="navicheckbox" style="display: none;" />
-								<label class="navi-button" for="navicheckbox"></label>
-								<div id="gNavi">
-									<ul>
-										<li><a class="wide" href="./news.html">お知らせ</a></li>
-										<li><a class="wide" href="#wolf">ABOUT US</a></li>
-										<li><a class="wide" href="#courses">COURSES</a></li>
-										<li><a class="wide" href="#teachers">TEACHERS</a></li>
-										<li><a class="wide" href="#events">EVENTS</a></li>
-										<li><a class="wide" href="./corporate.html">法人案内</a></li>
-										<li><a class="wide" href="./support.html">サポートのお願い</a></li>
-										<li><a class="wide" href="./rent.html">貸ホール・貸練習室</a></li>
-										<li><a class="wide" href="./access.html">お問合せ</a></li>
-									</ul>
-								</div><!-- gNavi -->
-								
-							</td>
-						</tr>
-					</table>
-				</div><!-- visible-xs -->
-			</div><!-- navibarContent -->
-		</div><!-- navibar -->
+				</div><!--nav_list-->
+			</div><!-- header_wrapper -->
+		</header>
 		
 
-		<div id="bg-top" class="navbarTopPadding">
+		<div id="bg-top">
 			<div id="top">
 				<div class="visible-xs hidden-sm hidden-md hidden-lg">
 					<img src="./img/topmb03.jpg" class="img-responsive" />
@@ -102,7 +69,7 @@
 			</div><!-- top -->
 		</div><!-- bg-top -->
 
-		<div class="container-fluid navbarTopPadding">
+		<div class="container-fluid">
 			<div class="wrapper">
 				<div class="row ">
 					<div class="col-xs-12">
@@ -166,7 +133,7 @@
 				<!-- Courses -->
 				
 				<div class="row scrollShow">
-					<div class="col-xs-12 navbarTopPadding">
+					<div class="col-xs-12">
 						<img src="./img/serpiente3.jpg" class="img-responsive hidden-print" />
 						
 					</div>
@@ -345,7 +312,7 @@
 				<div class="betweenSectors"></div>
 
 				<div class="row scrollShow">
-					<div class="col-xs-12 navbarTopPadding">
+					<div class="col-xs-12">
 						<img src="./img/crow3.jpg" class="img-responsive hidden-print" />
 					</div>
 				</div>
@@ -369,7 +336,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/01a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/01a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">いとい みちよ</span><br /><span class="teacher-name">糸井 みちよ</span></td>
 											</tr>
 											<tr>
@@ -391,7 +358,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/02a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/02a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">えばら ようこ</span><br /><span class="teacher-name">江原 陽子 </span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ソルフェージ／ リトミック／ 声楽／ コーラス／ ピアノ</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">東京芸術大学卒業　洗足学園音楽大学教授　本校出身</p>
@@ -411,14 +378,14 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/04a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/04a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">かとう えり</span><br /><span class="teacher-name">加藤 恵理 </span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ソルフェージ／ リトミック／ ピアノ</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">玉川大学卒業　平成3～8年 本校講師　本校出身</p>
 													<div class="teacherMessage">
-																私は当スクールで学びました。<br />
-																広いホールで音楽に合わせて体を自由に動かし、拍を感じながら友達と声を合わせる。この体験が音楽のみならず私の人生の大事な基礎となっているのを感じます。<br />
-																さまざまな実を結ぶであろうお一人お一人の根っこの部分に寄り添って、一緒に歌い、聴きあいながら音楽の楽しさを伝えていけたらと思っています。
+														私は当スクールで学びました。<br />
+														広いホールで音楽に合わせて体を自由に動かし、拍を感じながら友達と声を合わせる。この体験が音楽のみならず私の人生の大事な基礎となっているのを感じます。<br />
+														さまざまな実を結ぶであろうお一人お一人の根っこの部分に寄り添って、一緒に歌い、聴きあいながら音楽の楽しさを伝えていけたらと思っています。
 													</div>
 												</td>
 											</tr>
@@ -430,7 +397,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/05a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/05a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">こみやま きょうこ</span><br /><span class="teacher-name">込山 今日子 </span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ソルフェージ／ リトミック／ ピアノ</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">桐朋学園大学短期大学部卒業</p>
@@ -439,9 +406,9 @@
 													<!-- 創立40周年 座間男声合唱団 第14回 定期演奏会(<a href="./doc/event/40thzamadan-concert20200328.pdf" target="_blank">PDF</a>) &emsp;<span class="date"><span class="glyphicon glyphicon-time"></span> 3月28日</span><br/-->
 													<!-- 瑞穂の会会員によるコンサート 春の横浜に歌う(<a href="./doc/event/sing4yokohama-bymizuho20200419.pdf" target="_blank">PDF</a>) &emsp;<span class="date"><span class="glyphicon glyphicon-time"></span> 4月19日</span></p-->
 													<div class="teacherMessageIzq">
-																わたしは、子どものころから連弾をしたり伴奏をしたりするのが大好きで、今もピアノを続けています。<br />
-																気持ちよくピアノが弾ける時というのは、身体も心も柔らかく伸び伸びとしている時だなあと思います。<br />
-																音楽を通して、みなさまがのびやかな時間を過ごすお手伝いができたらうれしいです。
+														わたしは、子どものころから連弾をしたり伴奏をしたりするのが大好きで、今もピアノを続けています。<br />
+														気持ちよくピアノが弾ける時というのは、身体も心も柔らかく伸び伸びとしている時だなあと思います。<br />
+														音楽を通して、みなさまがのびやかな時間を過ごすお手伝いができたらうれしいです。
 													</div>
 												</td>
 											</tr>
@@ -453,7 +420,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/06a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/06a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">せのお みきこ</span><br /><span class="teacher-name">妹尾 美紀子</span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ヴァイオリン</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">桐朋学園大学卒業</p>
@@ -471,7 +438,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/13a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/13a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">つぶらく あんり</span><br /><span class="teacher-name">津布楽 杏里 </span>
 												</td>
 											</tr><tr><td colspan="2">
@@ -502,7 +469,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/07a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/07a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">はやし さちこ</span><br /><span class="teacher-name">林 さち子</span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ソルフェージ／ ピアノ</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">オベリン大学卒業　インディアナ大学大学院修士課程修了　本校出身</p>
@@ -521,8 +488,8 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/08a.jpg" class="coursePic image-responsive" /></td>
-												<td><span class="yomigana">はやし てつや</span><br /><span class="teacher-name">林 徹也</span><br /><div class="visible-xs hidden-sm hidden-md hidden-lg red-text"><small>- 特別講師 -&emsp;</small></div></td>
+												<td><img src="./img/teachers/08a.jpg" class="coursePic image-responsive" /></td>
+												<td class="mayorCol"><span class="yomigana">はやし てつや</span><br /><span class="teacher-name">林 徹也</span><br /><div class="visible-xs hidden-sm hidden-md hidden-lg red-text"><small>- 特別講師 -&emsp;</small></div></td>
 												<td class="hidden-xs visible-sm visible-md visible-lg"><p class="red-text" float="right" style="white-space: nowrap;"><br>- 特別講師 -</p></td>
 											</tr>
 											<tr>
@@ -542,8 +509,8 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/14a.jpg" class="coursePic image-responsive" /></td>
-												<td><span class="yomigana">はやし としあき</span><br /><span class="teacher-name">林 俊昭</span></td></tr><tr><td colspan="2">
+												<td><img src="./img/teachers/14a.jpg" class="coursePic image-responsive" /></td>
+												<td class="mayorCol"><span class="yomigana">はやし としあき</span><br /><span class="teacher-name">林 俊昭</span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">チェロ／ 室内楽／ 弦楽合奏</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">
 													桐朋学園高校卒業　ローマ サンタ チェチリア音楽院卒業<br>大阪フィルハーモニー交響楽団首席チェリスト　本校出身</p>
@@ -559,7 +526,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/09a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/09a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">ふるさわ ゆうじ</span><br /><span class="teacher-name">古澤 裕治  </span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ソルフェージ／ クラリネット／ リコーダー</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">桐朋学園大学及びルーアン音楽院卒業</p>
@@ -576,7 +543,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/10a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/10a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">みずの のりこ</span><br /><span class="teacher-name">水野 紀子 </span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ソルフェージ／ ピアノ</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">桐朋学園大学及びデトモルト国立音楽大学卒業</p>
@@ -594,7 +561,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/11a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/11a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">やまざき たかこ</span><br /><span class="teacher-name">山崎 孝子 </span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ソルフェージ／ リトミック／ フルート／ リコーダー／ ピアノ</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">東京音楽大学卒業</p>
@@ -614,7 +581,7 @@
 									<table class="teacherTbl">
 										<tbody align="left">
 											<tr>
-												<td><img id="courseDo" src="./img/teachers/12a.jpg" class="coursePic image-responsive" /></td>
+												<td><img src="./img/teachers/12a.jpg" class="coursePic image-responsive" /></td>
 												<td class="mayorCol"><span class="yomigana">よしむら たかこ</span><br /><span class="teacher-name">吉村 隆子</span></td></tr><tr><td colspan="2">
 													<p class="teacher-data">担当科目:</p><p class="teacher-detail">ソルフェージ／ リトミック／ チェロ／ ピアノ</p>
 													<p class="teacher-data">プロフィール:</p><p class="teacher-detail">ジョージ・ナイクルグ(George Neikrug)に師事<br />ボストン大学、ベルリン留学　本校出身</p>
@@ -639,7 +606,7 @@
 				<div class="betweenSectors"></div>
 				
 				<div class="row scrollShow">
-					<div class="col-xs-12 navbarTopPadding">
+					<div class="col-xs-12">
 						<img src="./img/human2.jpg" class="img-responsive hidden-print" />
 					</div>
 				</div>
@@ -773,11 +740,6 @@
 					</div><!-- row -->
 				</div><!-- bg-events -->
 				
-				<div class="row navbarTopPadding">
-					<div class="col-xs-12">
-						<p class="copyright-text darkgray-text">【貸しホール・貸練習室】ページの写真 &copy;2017 大槻豊</p>
-					</div>
-				</div>
 				
 			</div><!-- wrapper -->
 		</div><!--  container-fluid -->
@@ -786,7 +748,7 @@
 		<!-- Footer -->
 		<div id="footer" class="setAnchor"></div>
 		<div class="navbarTopPadding">
-			<div class="footer navbarTopPadding">
+			<div class="footer">
 				<div class="footer_content">
 					<ul class="footer_list">
 						<li><a href="mailto:sol.info@dream.jp"><span class="glyphicon glyphicon-envelope"></span></a></li>
