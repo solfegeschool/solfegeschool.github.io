@@ -32,11 +32,11 @@ $(function(){
 	$(".nav_list").on( "click", function() {
 		if(!$(".nav_list").hasClass('active')){
 		  $(".nav_list ul").slideToggle(200);
-		  $(".nav_list").css("background-image","url('img/close.png')");
+		  $(".nav_list").css("background-image","url('../img/close.png')");
 		  $(".nav_list").addClass('active')
 	  	}else {
 		  $(".nav_list ul").slideUp(200);
-		  $(".nav_list").css("background-image","url('img/menuhamburger.png')");
+		  $(".nav_list").css("background-image","url('../img/menuhamburger.png')");
 		  $(".nav_list").removeClass('active')
 		}
 	});
