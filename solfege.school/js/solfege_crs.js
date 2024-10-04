@@ -29,15 +29,15 @@ $(document).ready(function() {
 
 /************* top navigation menu  ***************/
 $(function(){
-	$(".nav_list").on( "click", function() {
-		if(!$(".nav_list").hasClass('active')){
-		  $(".nav_list ul").slideToggle(200);
-		  $(".nav_list").css("background-image","url('../img/close.png')");
-		  $(".nav_list").addClass('active')
+	$(".nav_list_mb").on( "click", function() {
+		if(!$(".nav_list_mb").hasClass('active')){
+		  $(".nav_list_mb ul").slideToggle(200);
+		  $(".nav_list_mb").css("background-image","url('../img/close.png')");
+		  $(".nav_list_mb").addClass('active')
 	  	}else {
-		  $(".nav_list ul").slideUp(200);
-		  $(".nav_list").css("background-image","url('../img/menuhamburger.png')");
-		  $(".nav_list").removeClass('active')
+		  $(".nav_list_mb ul").slideUp(200);
+		  $(".nav_list_mb").css("background-image","url('../img/menuhamburger.png')");
+		  $(".nav_list_mb").removeClass('active')
 		}
 	});
 });
