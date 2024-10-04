@@ -53,9 +53,12 @@ header {
 	-webkit-transform: rotate(-20deg);
 }
 .nav_list {
+	position: absolute;
 	width: 700px;
 	height: 80px;
-	margin: 0 auto;
+	margin-left: 50%;
+	top: 0;
+	transform: translateX(-50%);
 }
 .nav_list ul li {
 	display: inline-block;
@@ -277,16 +280,19 @@ header {
         cursor: pointer;
         width: 50px;
         height: 50px;
-		float: right;
-		margin-right: 10px;
-		position: relative;
+		margin: 0;
+		position: absolute;
+		top: 10px;
+		right: 0;
+		transform: none;
 	}
 	.nav_list ul {
 		position: absolute;
 		display: none;
 		width: 200px;
-		top: 70px;
-		right: 5px;
+		top: 60px;
+		right: 0;
+		margin: 0;
 	}
 	.nav_list ul li {
 		display: block;
@@ -297,7 +303,7 @@ header {
 	}
 	.nav_list ul li a {
 		height: 40px;
-		color: #222;
+		color: #222222 !important;
 	}
 	.nav_list ul li a::after {
 		display: none;
