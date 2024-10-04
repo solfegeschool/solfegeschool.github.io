@@ -91,6 +91,7 @@ p {
 /* Navigation */
 header {
 	position: sticky;
+	position: -webkit-sticky;
 	top: 0;
 	left: 0;
 	max-width: 1200px;
@@ -129,11 +130,18 @@ header {
 }
 .nav_list {
 	position: absolute;
+	background-image: unset;
 	width: 700px;
 	height: 80px;
 	margin-left: 50%;
 	top: 0;
 	transform: translateX(-50%);
+}
+.nav_list:active {
+	background-image: unset;
+}
+.nav_list ul {
+	display: block;
 }
 .nav_list ul li {
 	display: inline-block;
@@ -164,16 +172,32 @@ header {
 	}
 }
 @media screen and (max-width: 768px) {
-	header {
+	.header_mb {
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+		left: 0;
 		height: 70px;
 		width: 100%;
+		background-color: #000;
+		margin: 0 auto;
+		text-align: center;
+		z-index: 100;
+	}
+	.non_sticky_header_mb {
+		position: relative;
+		height: 70px;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		z-index: 100;
 	}
 	#logo {
 		height: 80px;
 		width: 80px;
 		top: -5px;
 	}
-	.nav_list {
+	.nav_list_mb {
 		background-image: url(../img/menuhamburger.png);
         background-position: center;
         background-size: contain;
@@ -187,33 +211,50 @@ header {
 		right: 0;
 		transform: none;
 	}
-	.nav_list ul {
+	.nav_list_mb ul {
 		position: absolute;
 		display: none;
 		width: 200px;
 		top: 60px;
 		right: 0;
 		margin: 0;
+		z-index: 200;
 	}
-	.nav_list ul li {
+	.nav_list_mb ul li {
 		display: block;
 		width: 200px;
 		text-align: center;
 		background-color: #eee;
 		border-bottom: 1px solid #000;
-	}
-	.nav_list ul li a {
 		height: 40px;
+		z-index: 200;
+	}
+	.nav_list_mb ul li a {
+		font-size: 14px;
+		line-height: 40px;
 		color: #222222 !important;
 	}
-	.nav_list ul li a::after {
+	.nav_list_mb ul li a::after {
 		display: none;
 	}
-	.nav_list ul li:nth-child(11),
-	.nav_list ul li:nth-child(12),
-	.nav_list ul li:nth-child(13),
-	.nav_list ul li:nth-child(14) {
+	.nav_list_mb ul li:nth-child(11),
+	.nav_list_mb ul li:nth-child(12),
+	.nav_list_mb ul li:nth-child(13),
+	.nav_list_mb ul li:nth-child(14) {
 		display: none;
+	}
+	/* Navigation updated items */
+	.nav_list_mb ul li:nth-child(3)::after,
+	.nav_list_mb ul li:nth-child(4)::after {
+		content: '';
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		-moz-border-radius: 7.5px;
+		-webkit-border-radius: 7.5px;
+		border-radius: 7.5px;
+		background-color: #ffad00;
+		animation: colorTransition 1s infinite alternate;
 	}
 }
 /* new nav */
