@@ -986,6 +986,7 @@ ol ul {
 .date-underline {
 	border-bottom: 1px solid #cc1111;
 	width: 50px;
+	padding-top: 5px;
 }
 .dchaTxt {
 	padding-left: 10px;
@@ -1039,6 +1040,9 @@ ol ul {
 	padding: 10px;
 	background-color: white;
 	border-bottom: solid 1px #dddddd;
+}
+.news table tbody tr td {
+	vertical-align: middle;
 }
 .big-news:hover .newsImg,
 .news:hover  .newsImg {
@@ -1179,7 +1183,6 @@ ol ul {
 	.news {
 		min-height: 400px;
 	}
-
 	.newsIcon {
 		width: 40%;
 	}
