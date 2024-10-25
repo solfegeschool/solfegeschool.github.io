@@ -151,8 +151,7 @@ header {
 	margin-right: 60px;
 }
 /* Navigation updated items */
-.nav_list ul li:nth-child(4)::after,
-.nav_list ul li:nth-child(5)::after {
+.nav_list ul li:nth-child(4)::after {
 	content: '';
 	display: inline-block;
 	width: 15px;
@@ -244,8 +243,7 @@ header {
 		display: none;
 	}
 	/* Navigation updated items */
-	.nav_list_mb ul li:nth-child(4)::after,
-	.nav_list_mb ul li:nth-child(5)::after {
+	.nav_list_mb ul li:nth-child(4)::after {
 		content: '';
 		display: inline-block;
 		width: 15px;
