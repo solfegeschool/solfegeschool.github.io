@@ -1,4 +1,5 @@
-@charset "UTF-8";
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Zen+Kurenaido|Zen+Antique&display=swap');
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -64,13 +65,15 @@
   list-style-type: none;
 }
 .nav_events li {
-  margin: 2px;
+  margin: 15px;
   padding-left: 20px;
 }
 .nav_events a {
-  color: inherit;
-  text-decoration: none;
-  text-shadow: #000000 2px 2px 2px;
+	color: #000000;
+	background: #ffffff;
+	padding: 5px;
+	text-shadow: none;
+	text-decoration: none;
 }
 .nav_events a:hover {
   color: #aaaaaa;
@@ -80,17 +83,6 @@
   color: #ff9111;
   content: "\e074";
   margin-right: 3px;
-}
-@media (max-width: 767px) {
-	.nav_events li a {
-		color: #000000;
-		background: #ffffff;
-		padding: 5px;
-		text-shadow: none;
-	}
-	.nav_events li {
-		margin: 15px;
-	}
 }
 .eventTitle {
 	font-size: 30px;
@@ -115,6 +107,10 @@
 
 .bg_blanco {
 	background-color: #ffffff;
+	padding: 10px;
+}
+.bg_gray {
+	background-color: #ddd;
 	padding: 10px;
 }
 @media (min-width: 1200px) {
@@ -193,6 +189,55 @@
 }
 .event-detail ul {
 	margin-left: 20px;
+}
+/*** Kids Concert ***/
+.kids_bg {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .1);
+    background-image: url("../img/event/kidsconcertbg3-min.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navibar_kids {
+  position: relative;
+  background-color: #000;
+  max-width: 100%;
+}
+.kids_title {
+	background-image: url("../img/event/kids_title.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 300px;
+	width: auto;
+	margin: 0 auto;
+	background-color: #fff;
+	content: "";
+}
+.kids-event-detail {
+	width: 80%;
+	margin: 30px auto;
+	font-family: "Zen Kurenaido", serif;
+	font-size: 18px;
+	line-height: 1;
+	color: #111;
+}
+.obsolete-idea {
+	font-family: "Zen Antique", serif;
+	font-size: 16px;
+	line-height: 1;
+	color: #888;
+	margin: 10px;
+}
+.kids-event-detail .author {
+	text-align: right;
+	color: #c11;
+	font-size: 16px;
 }
 .sumTxt {
 	color: #000000;
