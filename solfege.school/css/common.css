@@ -896,12 +896,19 @@ ol ul {
 	width: 300px;
 	text-align: center;
 	font-size: 14px;
-	color: #cc1111;
-	background-color: #ddd;
+	color: #eee;
+	background-color: #222;
 	line-height: 30px;
 	border-radius: 10px;
+	padding: 8px;
 }
-
+.announcement span {
+	color: #88d03f;
+}
+.announcement a {
+	text-decoration: none;
+	color: inherit;
+}
 #bg-courses {
   position: relative;
   background-color: #333333; //#004060;
