@@ -895,12 +895,12 @@ ol ul {
 	right: 10px;
 	width: 300px;
 	text-align: center;
-	font-size: 14px;
 	color: #eee;
 	background-color: #222;
-	line-height: 30px;
 	border-radius: 10px;
-	padding: 8px;
+	font-size: 12px;
+	line-height: 25px;
+	padding: 5px;
 }
 .announcement span {
 	color: #88d03f;
@@ -1116,6 +1116,9 @@ ol ul {
 	}
 	.announcement {
 		top: 30px;
+		font-size: 14px;
+		line-height: 30px;
+		padding: 8px;
 	}
 }
 @keyframes parpadeo {
