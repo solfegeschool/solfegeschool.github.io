@@ -190,6 +190,15 @@
 .event-detail ul {
 	margin-left: 20px;
 }
+.profile {
+	background-color: #ededed;
+	color: #2b5f75;
+	font-size: 14px;
+	line-height: 1.2;
+	padding: 20px;
+	width: 90%;
+	margin: 10px auto;
+}
 /*** Kids Concert ***/
 .kids_bg {
   width: 100%;
