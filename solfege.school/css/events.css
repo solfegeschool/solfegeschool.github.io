@@ -60,7 +60,7 @@
   vertical-align: middle;
 }
 .nav_events {
-  color: #ffffff;
+  color: #fff;
   font-size: 13px;
   list-style-type: none;
 }
@@ -111,6 +111,39 @@
 }
 .bg_gray {
 	background-color: #ddd;
+	padding: 10px;
+}
+.chap_title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #982005;
+	margin: 30px auto 0;
+}
+.musicians {
+	font-size: 12px;
+	color: #053b78;
+}
+.program_detail {
+	width: 100%;
+	background: url("../img/event/violin_kid2.jpg");
+	background-position: center left;
+	background-repeat: repeat-y;
+	background-size: 300px auto;
+	padding-left: 120px;
+	margin: 0 auto;
+}
+.program_detail ul {
+	background: rgba(200,200,200,.3);
+	padding: 10px 30px;
+}
+.program_detail ul li {
+	margin-top: 18px;
+}
+.program_detail .comment {
+	font-family: Zen Kurenaido, serif;
+	font-size: 14px;
+	color: #982005;
+	background: rgba(255,255,255,.6);
 	padding: 10px;
 }
 @media (min-width: 1200px) {
