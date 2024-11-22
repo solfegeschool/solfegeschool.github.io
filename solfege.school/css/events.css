@@ -128,8 +128,8 @@
 	background: url("../img/event/violin_kid2.jpg");
 	background-position: center left;
 	background-repeat: repeat-y;
-	background-size: 300px auto;
-	padding-left: 120px;
+	background-size: 200px auto;
+	padding-left: 80px;
 	margin: 0 auto;
 }
 .program_detail ul {
@@ -165,6 +165,10 @@
 	.bg_blanco {
 		margin: 10px;
 		padding: 10px 20px;
+	}
+	.program_detail {
+		background-size: 300px auto;
+		padding-left: 120px;
 	}
 }
 .commentSqr {
