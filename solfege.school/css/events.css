@@ -119,6 +119,11 @@
 	color: #982005;
 	margin: 30px auto 0;
 }
+.chap_title .message {
+	font-family: serif;
+	font-size: 18px;
+	font-style: italic;
+}
 .musicians {
 	font-size: 12px;
 	color: #053b78;
@@ -140,6 +145,16 @@
 	margin-top: 18px;
 }
 .program_detail .comment {
+	font-family: Zen Kurenaido, serif;
+	font-size: 14px;
+	color: #982005;
+	background: rgba(255,255,255,.6);
+	padding: 10px;
+}
+.program_detail .comment .author {
+	text-align: right;
+	margin: 5px;
+}
 	font-family: Zen Kurenaido, serif;
 	font-size: 14px;
 	color: #982005;
