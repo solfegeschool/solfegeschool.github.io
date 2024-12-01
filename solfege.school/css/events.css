@@ -154,11 +154,25 @@
 .program_detail .comment .author {
 	text-align: right;
 	margin: 5px;
-}
 	font-family: Zen Kurenaido, serif;
 	font-size: 14px;
 	color: #982005;
 	background: rgba(255,255,255,.6);
+	padding: 10px;
+}
+.event_report {
+	width: 100%;
+	margin: 20px auto;
+	padding: 10px;
+}
+.event_report thead tr th {
+	background-color: #ddd;
+	border: 5px solid #ddd;
+	padding: 10px;
+}
+.event_report tbody tr td {
+	background-color: #fff;
+	border: 5px solid #ddd;
 	padding: 10px;
 }
 @media (min-width: 1200px) {
