@@ -2083,6 +2083,39 @@ input[type=checkbox]:checked ~ event-item {
 	border-left: solid 10px #00c400;
 	border-bottom: solid 1px #00c400;
 }
+
+/* Access Page */
+
+.access-text {
+  font-family: serif;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  margin: 0 0 20px;
+}
+.contact_info {
+  font-family: serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333;
+  background-color: #eee;
+  text-decoration: none;
+  margin: 0 0 20px;
+  padding: 20px;
+}
+.separator_brown {
+  display: block;
+  border-bottom: 1px solid #f4d03f;
+  width: 200px;
+  text-align: center;
+  margin: 10px 0;
+}
+.access_map {
+  background-color: #666;
+  padding: 30px;
+  margin: 30px auto;
+  width: 100%;
+}
 /* Footer */
 
 .footer-text ul {
