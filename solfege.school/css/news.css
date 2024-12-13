@@ -3,7 +3,7 @@
 /* NEWS page */
 .news-link,
 .covid-link{
-  background:#ffffff;
+  background: #fff;
   border-bottom: 0.1px solid #cc1111;
 }
 .news-link img,
@@ -61,12 +61,19 @@ td.news-link:hover{
   font-weight: bold;
   line-height: 18px;
 }
+.highlight_date a,
 .highlight_date {
     font-size: 12px;
     font-weight: normal;
     line-height: 12px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.highlight_date-underline {
+    border-bottom: 1px solid #cc1111;
+    width: 50px;
+    padding: 5px 0;
+    margin-bottom: 10px;
 }
 .highlights{
   display: flex; 
@@ -122,18 +129,22 @@ button{
     position: absolute;
     background-color: #4d4d4d;
     top: 50px;
+    left: 10px;
     height: 200px;
     width: 40%;
     padding: 10px;
     white-space: normal;
     font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
 }
-hightlight_detail a{
+.hightlight_detail a{
     text-decoration: none;
 }
+
+/* CAROUSEL */
+
+
 @media screen and (max-width: 767px) {
  .item {max-height: 250px;}
- .hightlight_detail {bottom: 0px; width: 75%; height: 120px;}
  .chapter-title{ top: 20px;}
  .news-link .newsTitle,
  .covid-link .newsTitle{
@@ -141,5 +152,17 @@ hightlight_detail a{
  }
  .newsHeaderContent .title-part {
     width: 75%; 
+ }
+ .highlight_title {
+ 	font-size: 16px;
+ 	line-height: 16px;
+ }
+ .hightlight_detail {
+ 	position: absolute;
+ 	width: 100%;
+ 	top: initial;
+ 	left: initial;
+ 	bottom: 0;
+ 	height: 120px;
  }
 }
