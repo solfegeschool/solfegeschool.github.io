@@ -507,6 +507,33 @@ header {
   padding-left: 0;
   padding-right: 20px;
 }
+.trimester_dates {
+  width: 400px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.trimester_dates dt {
+  width: 20%;
+  margin-bottom: 3px;
+}
+.trimester_dates dd {
+  width: 80%;
+  padding-left: 10px;
+  margin-bottom: 3px;
+}
+.course_message {
+  width: 90%;
+  text-align: center;
+  font-family: serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8afffa;
+  text-shadow: #fff 1px 1px 20px;
+  margin: 50px auto;
+}
 .poem {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
   font-size: 11px;
@@ -911,15 +938,13 @@ ol ul {
 }
 #bg-courses {
   position: relative;
-  background-color: #333333; //#004060;
-  background-image: url("../img/solfeJet2.png");
-	background-position: top;
+  background-color: #333;
+  background-image: url("../img/solfeJet.jpg");
+	background-position: top right 0;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
+	margin: 0 auto;
 }
 .courses_topImg {
   position: relative;
@@ -944,7 +969,6 @@ ol ul {
 	margin-right: auto;
 	padding: 0;
 }
-
 #bg-news {
   position: relative;
   top: 30px;
@@ -1119,6 +1143,13 @@ ol ul {
 		font-size: 14px;
 		line-height: 30px;
 		padding: 8px;
+	}
+	#bg-courses {
+		background-position: top 110px right 0;
+		background-size: cover;
+	}
+	.course_message {
+		font-size: 30px;
 	}
 }
 @keyframes parpadeo {
