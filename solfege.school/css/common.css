@@ -526,7 +526,6 @@ header {
 }
 .course_message {
   width: 90%;
-  text-align: center;
   font-family: serif;
   font-size: 20px;
   line-height: 1.2;
@@ -536,6 +535,7 @@ header {
 }
 .course_message p {
   margin-bottom: 10px;
+  text-align: left;
 }
 .poem {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
