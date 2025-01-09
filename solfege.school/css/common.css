@@ -529,10 +529,13 @@ header {
   text-align: center;
   font-family: serif;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   color: #8afffa;
   text-shadow: #fff 1px 1px 20px;
   margin: 50px auto;
+}
+.course_message p {
+  margin-bottom: 10px;
 }
 .poem {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
