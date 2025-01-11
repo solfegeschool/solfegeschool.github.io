@@ -160,6 +160,11 @@
 	background: rgba(255,255,255,.6);
 	padding: 10px;
 }
+.insideComment {
+	font-family: Zen+Kurenaido, serif;
+	font-size: 14px;
+	line-height: 1.2;
+}
 .event_report {
 	width: 100%;
 	margin: 20px auto;
