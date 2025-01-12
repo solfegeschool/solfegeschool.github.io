@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Zen+Kurenaido|Zen+Antique&display=swap');
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -47,6 +48,14 @@
 .nav_courses li {
   margin: 2px;
 }
+.event_report {
+	margin: 10px;
+	padding: 10px;
+	border: 5px solid #ddd;
+}
+.event_report thead {
+	background-color: #ddd;
+}
 @media (max-width: 767px) {
 	.nav_courses li a {
 		color: #000000;
@@ -84,6 +93,92 @@
   padding-left: 5px;
   border-left: solid 13px #ff9111;
 }
+.core-message {
+  font-family: serif;
+  font-size: 13px;
+  line-height: 14px;
+  //background: #fff;
+  width: 95%;
+  margin: 20px auto;
+  color: #641e16;
+  //color: #0e5691;
+  padding: 0 30px;
+  text-shadow: #fdccff 1px 0 20px;
+}
+.core-message p {
+	margin-bottom: 5px;
+}
+.teachers_message {
+  font-family: Zen Kurenaido, serif;
+  font-size: 14px;
+  line-height: 18px;
+  background: #fffbed;
+  width: 90%;
+  margin: 20px auto;
+  color: #7b241c;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.teachers_message .author {
+  font-family: Zen Kurenaido, serif;
+  font-size: 14px;
+  text-align: right;
+  margin-top: 20px;
+  color: #7b241c;
+}
+.course_schedule,
+.course_schedule2 {
+  width: 100%;
+  margin: 10px auto 30px;
+  padding: 10px;
+  font-size: 14px;
+}
+.course_schedule thead tr th {
+  background-color: #d6eaf8;
+  border: 5px solid #d6eaf8;
+  padding: 10px;
+}
+.course_schedule tbody tr td {
+  background-color: #fff;
+  border: 5px solid #d6eaf8;
+  padding: 10px;
+}
+.course_schedule2 thead tr th {
+  background-color: #f6ddcc;
+  border: 5px solid #f6ddcc;
+  padding: 10px;
+}
+.course_schedule2 tbody tr td {
+  background-color: #fff;
+  border: 5px solid #f6ddcc;
+  padding: 10px;
+}
+.course_schedule .dates,
+.course_schedule2 .dates {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.course_schedule .dates dt {
+  width: 40%;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #d6eaf8;
+}
+.course_schedule .dates dd {
+  width: 60%;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #d6eaf8;
+}
+.course_schedule2 .dates dt {
+  width: 40%;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #f6ddcc;
+}
+.course_schedule2 .dates dd {
+  width: 60%;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #f6ddcc;
+}
 @media (min-width: 1200px) {
   .navibar {
 	  max-width: 100%;
@@ -99,6 +194,15 @@
 	}
 	.paddingShowBG {
 		height: 400px;
+	}
+	.core-message {
+		font-size: 16px;
+		line-height: 18px;
+		width: 90%;
+	}
+	.teachers_message {
+		font-size: 16px;
+		line-height: 18px;
 	}
 }
 .photoTxt {
@@ -126,11 +230,10 @@
 	margin-top: 20px;
 }
 .courseInfo {
-	//color: #777777;
-	color: #cc1111;
+	color: #c11;
 	font-size: 14px;
 	font-weight: bold;
-	margin-top: 5px;
+	margin: 10px 0;
 }
 
 .bg_gris {
