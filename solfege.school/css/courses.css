@@ -95,18 +95,18 @@
 }
 .core-message {
   font-family: serif;
-  font-size: 13px;
-  line-height: 14px;
-  //background: #fff;
+  background: #34495e;
+  font-size: 15px;
+  line-height: 17px;
   width: 95%;
   margin: 20px auto;
-  color: #641e16;
-  //color: #0e5691;
-  padding: 0 30px;
+  color: #fff;
+  padding: 20px 30px 10px;
   text-shadow: #fdccff 1px 0 20px;
+  border-radius: 10px;
 }
 .core-message p {
-	margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 .teachers_message {
   font-family: Zen Kurenaido, serif;
@@ -196,8 +196,8 @@
 		height: 400px;
 	}
 	.core-message {
-		font-size: 16px;
-		line-height: 18px;
+		font-size: 18px;
+		line-height: 20px;
 		width: 90%;
 	}
 	.teachers_message {
