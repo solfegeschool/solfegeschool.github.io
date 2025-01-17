@@ -86,7 +86,7 @@
 }
 .eventTitle {
 	font-size: 30px;
-	line-height: 30px;
+	line-height: 1;
 	font-family: Arial, JPFont;
 }
 .itemTitle {
@@ -190,8 +190,7 @@
 @media (min-width: 768px) {
 	.eventTitle {
 		font-size: 45px;
-		line-height: 45px;
-		margin-top: 8px;
+		margin: 10px 10px 50px;
 	}
 	.paddingShowBG {
 		height: 200px;
@@ -249,10 +248,10 @@
 .eventPhoto {
 	position: relative;
 	margin: auto;
-	width: 400px;
+	//width: 400px;
 	text-align: center;
 	display: inline-block;
-	border: solid 2px #cc1111;
+	//border: solid 2px #cc1111;
 	padding: 3px;
 }
 .event-detail {
