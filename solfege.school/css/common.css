@@ -470,7 +470,8 @@ header {
 #book-detail,
 .course-detail {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 1.3;
   padding-left: 0;
   padding-right: 15px;
   color: #000000;
@@ -2236,56 +2237,56 @@ input[type=checkbox]:checked ~ event-item {
 
 /* Responsive Design */
 @media (max-width: 767px) {
-.rightSide-text {float: right; font-size: 11px;}
-.newsTitle-head {font-size: 1.3em; line-height: 17px;}
-.news-title {font-size: 10px;}
-//.en-title { font-size: 40px; }
-//.jp-title { font-size: 15px; }
-.chapter-title { font-size: 14px; }
-.content-text { font-size: 16px; }
-.content-small-text { font-size: 14px; }
-.content-side-text { font-size: 16px; }
-.event-title { font-size: 16px; }
-#course-title { font-size: 24px; }
-.teacher-name { font-size: 16px; }
-.courseType { font-size: 11px; }
-.course-menu { font-size: 16px; }
-.teacher-data { font-size: 15px; }
-.teacher-detail { font-size: 14px; }
-.teacherMessageIzq,
-.teacherMessage { font-size: 12px;}
-.event-detail,
-.news-detail,
-.course-detail { font-size: 13px; }
+	.rightSide-text {float: right; font-size: 11px;}
+	.newsTitle-head {font-size: 1.3em; line-height: 17px;}
+	.news-title {font-size: 10px;}
+	//.en-title { font-size: 40px; }
+	//.jp-title { font-size: 15px; }
+	.chapter-title { font-size: 14px; }
+	.content-text { font-size: 16px; }
+	.content-small-text { font-size: 14px; }
+	.content-side-text { font-size: 16px; }
+	.event-title { font-size: 16px; }
+	#course-title { font-size: 24px; }
+	.teacher-name { font-size: 16px; }
+	.courseType { font-size: 11px; }
+	.course-menu { font-size: 16px; }
+	.teacher-data { font-size: 15px; }
+	.teacher-detail { font-size: 14px; }
+	.teacherMessageIzq,
+	.teacherMessage { font-size: 12px;}
+	.event-detail,
+	.news-detail,
+	.course-detail { font-size: 14px; }
 }
 
 @media (min-width: 768px) {
-/*#logo {
-  top: -30px;
-  height: 150px;
-  width: 150px;
-}*/
-.rightSide-text { float: right; font-size: 14px; }
-//.en-title { font-size: 45px; line-height: 15px;}
-.chapter-title { font-size: 16px; }
-.content-text { font-size: 18px; }
+	/*#logo {
+	  top: -30px;
+	  height: 150px;
+	  width: 150px;
+	}*/
+	.rightSide-text { float: right; font-size: 14px; }
+	//.en-title { font-size: 45px; line-height: 15px;}
+	.chapter-title { font-size: 16px; }
+	.content-text { font-size: 18px; }
 
-.content-small-text { font-size: 16px; }
-.content-side-text { font-size: 18px; }
-.event-title,
-.news-title,
-.teacher-name { font-size: 24px; }
-.course-menu { font-size: 24px; }
-#course-title { font-size: 24px; }
-.teacher-data { font-size: 18px; }
-.footer-text,
-.event-detail,
-.news-detail,
-.course-detail { font-size: 16px; }
-.courseType { font-size: 12px; }
-.onepage { column-count: 2; column-gap: 20px; padding: 20px 20px;}
-.special-menu { color: #ffcf11;}
-.rotating {max-height: 180px;}
+	.content-small-text { font-size: 16px; }
+	.content-side-text { font-size: 18px; }
+	.event-title,
+	.news-title,
+	.teacher-name { font-size: 24px; }
+	.course-menu { font-size: 24px; }
+	#course-title { font-size: 24px; }
+	.teacher-data { font-size: 18px; }
+	.footer-text,
+	.event-detail,
+	.news-detail,
+	.course-detail { font-size: 16px; }
+	.courseType { font-size: 12px; }
+	.onepage { column-count: 2; column-gap: 20px; padding: 20px 20px;}
+	.special-menu { color: #ffcf11;}
+	.rotating {max-height: 180px;}
 }
 
 @media (min-width: 992px) {
