@@ -6,6 +6,7 @@
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+/*
 .course_bg {
   width: 100%;
   max-width: 1200px;
@@ -15,6 +16,23 @@
     background-image: url("../img/course/courseBGImage.jpg");
 	background-position: center;
 	background-attachment: fixed;
+}*/
+.course_bg {
+  position: relative;
+  z-index: 10;
+  clip-path: polygon(0 0,0 100%,100% 100%,100% 0);
+  background-color: transparent;
+}
+.course_bg::before {
+  content: '';
+  z-index: -1;
+  inset: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  position: fixed;
+  background-image: url("../img/course/courseBGImage.jpg");
+  background-attachment: fixed;
 }
 .courseTitle {
 	font-size: 30px;
