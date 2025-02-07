@@ -243,6 +243,67 @@ a {
 .paperTbl td {
 	vertical-align: middle;
 }
+.history_block_container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	background: #fff;
+	max-width: 100%;
+	overflow-x: auto;
+	overflow-x: scroll;
+	scrollbar-color: #c11 #ddd;
+	scrollbar-width: thin;
+}
+.box {
+	padding: 20px;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	flex: 1;
+	-webkit-flex: 1;
+	min-width: 300px;
+}
+.box .year {
+	font-size: 24px;
+	border-bottom: 5px solid #c11;
+	margin-bottom: 20px;
+	position: relative;
+}
+.box .year .jp{
+	font-size: 14px;
+	position: absolute;
+	bottom: 5px;
+	left: 90px;
+	color: #555;
+}
+.box p {
+	font-size: 16px;
+	line-height: 1.2;
+}
+.box img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.box .pic_descrip {
+	font-size: 12px;
+	line-height: 1.1;
+	color: #2d307a;
+	text-align: center;
+	margin-top: 3px;
+}
+.box .memo {
+	font-size: 12px;
+	line-height: 1.3;
+	color: #2d307a;
+	margin-top: 3px;
+	padding: 5px;
+	border: 1px solid #2d307a;
+}
 @media (min-width: 768px) {
 	.respuesta { font-size: 15px; }
 	.content_text,
