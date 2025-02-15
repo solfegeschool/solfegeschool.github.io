@@ -761,6 +761,14 @@ ol ul {
 #goDown {
 	animation: vertVib 3s ease infinite;
 	-webkit-animation: vertVib 3s ease infinite;
+	text-align: center;
+}
+#goDown img{
+	max-width: 100%;
+	display: inline;
+}
+.anch_fit img {
+	display: inline;
 }
 .newsIcon {
 	float: center;
@@ -1387,17 +1395,18 @@ ol ul {
 .horz {
 	white-space: nowrap;
 }
-
-.linkToOtherPage {
+.text_in_box {
+  display: inline;
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
   font-size: inherit;
-  color: #cc1111;
-  background-color: #ffffff;
-  border: solid 3px #cc1111;
-  padding: 5px;
+  color: #c11;
+  background-color: #fff;
+  border: solid 3px #c11;
+  padding: 10px;
   margin:10px;
   font-weight: bold;
   text-align: center;
+  float: right;
 }
 
 .linkToOtherPage a {
