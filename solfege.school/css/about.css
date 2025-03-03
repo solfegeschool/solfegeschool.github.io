@@ -185,7 +185,7 @@
   max-width: 100%;
   padding: 0;
   position: relative;
-  height: 600px;
+  height: 320px;
   overflow: hidden;
 }
 .founder_img img {
@@ -196,11 +196,11 @@
 }
 .rotate_bg {
   position: absolute;
-  bottom: 250px;
+  bottom: 100px;
   leftt: 0;
   width: 100%;
   max-width: 100%;
-  height: 350px;
+  height: 250px;
   overflow: hidden;
 }
 .rotate_bg img {
@@ -381,7 +381,10 @@ a {
 	.bg_history {background-image: url("../img/building-min.jpg");}
 	.bg-newspaper {background-image: url("../img/bg-papers-min.jpg");}
 	.bookTbl {margin-left: 50px; height: 500px; width: 80%;}
-	.qanda_index { font-size: 16px; }
+	.qanda_index {font-size: 16px; }
+	.founder_img {height: 600px; }
+	.founder_img img {}
+	.rotate_bg {bottom: 250px; height: 350px;}
 }
 @media (min-width: 992px) {
 	.content_text,
