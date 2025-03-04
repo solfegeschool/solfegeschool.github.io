@@ -137,6 +137,10 @@
 .wordsOfFounder {
 	margin: 20px;
 }
+.wordsOfFounder > p,
+.wordsOfFounder > img {
+	display: inline;
+}
 .press_intro {
 	margin: 20px;
 }
@@ -177,10 +181,10 @@
 	padding-left: 10px;
 }
 .founder_img {
-  background-image: url("../img/founder_bg.png");
-  background-position: bottom right;
+  background-image: url("../img/founder_bg.jpg");
+  background-position: bottom left;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   max-width: 100%;
   padding: 0;
