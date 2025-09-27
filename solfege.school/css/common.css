@@ -131,7 +131,8 @@ header {
 .nav_list {
 	position: absolute;
 	background-image: unset;
-	width: 650px;
+	/* width: 650px; // When no updated items */
+	width: 700px; /* // When updated items */
 	height: 80px;
 	margin-left: 50%;
 	top: 0;
@@ -151,7 +152,7 @@ header {
 	margin-right: 60px;
 }
 /* Navigation updated items */
-/* .nav_list ul li:nth-child(3)::after, */
+.nav_list ul li:nth-child(4)::after,
 .nav_list ul li:nth-child(5)::after {
 	content: '';
 	display: inline-block;
@@ -244,7 +245,7 @@ header {
 		display: none;
 	}
 	/* Navigation updated items */
-	/* .nav_list_mb ul li:nth-child(3)::after,*/
+	.nav_list_mb ul li:nth-child(3)::after,
 	.nav_list_mb ul li:nth-child(5)::after {
 		content: '';
 		display: inline-block;
