@@ -1223,9 +1223,11 @@ ol ul {
 	bottom: 10px;
 	left: 10px;
 	font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: bold;
-	color: #ffffff;
+	color: #000;
+	background: #eee;
+	padding: 5px;
 }
 .eventCap::after {
 	border-left: solid 1em #cc1111;
@@ -3229,7 +3231,7 @@ input[type=checkbox]:checked ~ event-item {
   }
   .courseCap,
   .eventCap {
-     font-size: 16px;
+     font-size: 14px;
   }
   .calTbl {
     display: inline-block;
