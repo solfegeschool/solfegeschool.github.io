@@ -2095,10 +2095,13 @@ input[type=checkbox]:checked ~ event-item {
   margin-right: 5px;
 }
 .onepage {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 20px;
   margin: 0 10px;
   column-count: 1;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 .special-menu {color: #004da4;}
 

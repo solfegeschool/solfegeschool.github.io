@@ -273,8 +273,9 @@ a {
 }
 .pregunta {
 	color: #c11;
-	padding: 20px;
+	padding: 40px 20px 10px;
 	font-size: 1.2em;
+	line-height: 1.3;
 	font-weight: bold;
 }
 .pregunta_num {
