@@ -246,7 +246,7 @@ header {
 		display: none;
 	}
 	/* Navigation updated items */
-	.nav_list_mb ul li:nth-child(3)::after,
+	.nav_list_mb ul li:nth-child(4)::after,
 	.nav_list_mb ul li:nth-child(5)::after {
 		content: '';
 		display: inline-block;
