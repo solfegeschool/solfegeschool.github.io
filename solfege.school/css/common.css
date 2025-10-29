@@ -57,6 +57,7 @@ p {
 .blue-text { color: #004da4; }
 .yellow-text { color: #ffcf11; }
 .green-text { color: #00c400; }
+.brightgreen-text {color: #23B1A5;}
 
 /* Colored background */
 .cobalt-bg { background-color: #2d307a; }
@@ -557,7 +558,7 @@ header {
   font-weight: bold;
   font-size: 16px;
   border-bottom: solid 1px #004060;
-  color: #474747;
+  color: #23B1A5;
 }
 .teacher-detail {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
@@ -580,10 +581,28 @@ header {
   text-decoration: none;
 }
 /* Event */
+.event_data {
+  width: 95%;
+  height: 90px;
+  text-align: left;
+  margin: 20px;
+  position: relative;
+}
+.event_data .updated {
+	content: url("../img/updated_event.png");
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -5px;
+	right: 0;
+}
 .event-title {
-  font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
-  color: #fff;
+  font-family: Meiryo, sans-serif;
+  font-weight: bold;
+  color: #000;
   text-decoration: none;
+  margin: 20px 0px 10px;
+  transition: 0.5s;
 }
 .event-detail {
   font-family: Arial, Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
@@ -919,8 +938,8 @@ ol ul {
 }
 #bg-teachers {
   position: relative;
-  background-color: #333333;
- // background-image: url("../img/teachersBG5.png");
+  background-color: #E95280;
+  //background-image: url("../img/bgteacher.jpeg");
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1632,9 +1651,9 @@ ol ul {
 	margin-right: 3px;
 }
 .teacherTbl {
-	background-color: #fff;
-	border: 1px solid yellow;
+	background-color: #F3F3F3;
 	width: 90%;
+	border-top-right-radius: 50px;
 	margin: 10px auto;
 }
 .teacherTbl tr td {
@@ -1649,16 +1668,31 @@ ol ul {
   white-space: nowrap;
 }
 .teacherMessage {
-	background-image: url("../img/bocadillo2.png");
+	//background-image: url("../img/bocadillo2.png");
+	background-color: #fff;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
+	border-radius: 30px;
+	border: 10px solid #FFDD7E;
 	font-size: 14px;
-	padding: 1rem 0;
+	padding: 1rem;
 	float: right;
 	width: 80%;
 }
 .teacherMessageIzq {
+	background-color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 30px;
+	border: 10px solid #FFDD7E;
+	font-size: 14px;
+	padding: 1rem;
+	float: left;
+	width: 80%;
+}
+/* .teacherMessageIzq {
 	background-image: url("../img/bocadillo2iz.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1667,7 +1701,7 @@ ol ul {
 	padding: 1rem 0;
 	float: left;
 	width: 80%;
-}
+} */
 .teacherMessageTbl {
 	font-size: 14px;
 	margin: 20px auto;
@@ -1920,25 +1954,21 @@ input[type=checkbox]:checked ~ event-item {
 	text-align: center;
 }
 .event-head {
-	color: white;
-	border: solid 1px #ffffff;
-	background-position: right bottom;
-	background-repeat: no-repeat;
-    padding: 10px;
-	margin: 10px auto;
+    //padding: 10px;
+	margin: 10px 25px;
 	display: inline-block;
-	width: 32%;
-	height: 100px;
-	vertical-align: top;
-	text-align: left;
+	width: 25%;
+	height: 250px;
+	vertical-align: bottom;
 	position: relative;
 }
+/*
 .event-head .updated {
 	content: url("../img/updated_event.png");
 	position: absolute;
 	top: 0;
 	right: 0;
-}
+}*/
 .event-head a {
 	position: absolute;
 	width: 100%;
@@ -1947,6 +1977,33 @@ input[type=checkbox]:checked ~ event-item {
 	left: 0;
 	text-decoration: none;
 }
+.event-head .event_photo {
+	width: 100%;
+	height: 150px;
+	background-color: #c11;
+	position: relative;
+}
+.event-head .event_photo img {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #c11;
+	object-fit: cover;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	transition: 0.3s;
+}
+.event-head:hover .event_photo img {
+	left: -10px;
+	top: -10px;
+}
+.event-head:hover .event_data .event-title {
+	color: #c11;
+}
+/*
 .event-head:nth-of-type(5n + 1) {
 	background-image: url("../img/event1.png");
 	background-color: #c73f28;
@@ -1967,19 +2024,31 @@ input[type=checkbox]:checked ~ event-item {
 	background-image: url("../img/event5.png");
 	background-color: #93660d;
 }
+*/
 @media (max-width: 767px) {
 	.event-head {
 		width: 95%;
-		height: 80px;
+		height: 250px;
 		margin: 5px auto;
+	}
+	.event_data {
+		width: 90%;
+		height: 90px;
+		margin: 20px auto;
+	}
+	.event-head:hover .event_photo img {
+		left: 10px;
+		top: 10px;
+	}
+	.event-head:hover .event_data .event-title {
+		color: #000;
 	}
 }
 .event_date {
-	position: absolute;
-	color: #ddd;
-	font-size: 12px;
+	color: #222;
+	font-size: 14px;
+	//text-shadow: #000 1px 0 10px;
 	line-height: 12px;
-	bottom: 10px;
 }
 .monthCal {
   background-color: #cc1111;
@@ -2293,7 +2362,7 @@ input[type=checkbox]:checked ~ event-item {
 
 	.content-small-text { font-size: 16px; }
 	.content-side-text { font-size: 18px; }
-	.event-title,
+	.event-title{ font-size: 18px; }
 	.news-title,
 	.teacher-name { font-size: 24px; }
 	.course-menu { font-size: 24px; }
@@ -2317,7 +2386,7 @@ input[type=checkbox]:checked ~ event-item {
 .content-text { font-size: 20px; }
 .content-small-text { font-size: 18px; }
 .content-side-text { font-size: 20px; }
-.event-title,
+.event-title{ font-size: 18px; }
 .news-title,
 .teacher-name,
 .course-menu { font-size: 24px; }
@@ -3231,7 +3300,7 @@ input[type=checkbox]:checked ~ event-item {
   }
   .courseCap,
   .eventCap {
-     font-size: 14px;
+     font-size: 16px;
   }
   .calTbl {
     display: inline-block;
