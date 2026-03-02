@@ -37,6 +37,17 @@
 	background-color: rgba(255,255,255, 0.7);
 	border-left: solid 10px #ffcf11;
 }
+.rent_SubTitle {
+	width: 80%;
+	color: #000000;
+	padding: 10px;
+	margin: 5px auto;
+	font-size: 14px;
+	font-weight: plain;
+	text-align: center;
+	background-color: rgba(255,255,255, 0.7);
+	border-bottom: solid 5px #ffcf11;
+}
 .white-bg {
 	position: relative;
 	background-color: rgba(255,255,255, 0.6);
@@ -82,12 +93,20 @@
   padding: 10px;
   margin-bottom: 20px;
 }
+.subtable_rent {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ffcf11;
+  padding: 10px;
+}
 .table_rent {
 	width: 100%;
   border-collapse: collapse;
   border: 1px solid #ffcf11;
   padding: 10px;
 }
+.subtable_rent th,
 .table_rent th {
   background-color: #e0e0e0;
   color: #000000;
@@ -95,12 +114,19 @@
   vertical-align: middle;
   padding: 10px;
 }
+.subtable_rent td,
 .table_rent td {
   background-color: #ffffff;
   color: #000000;
   border: 1px solid #ffcf11;
   vertical-align: middle;
   padding: 10px;
+}
+.rent_lista-ol {
+  width: 80%;
+  line-height: 1.5em;
+  padding: 8px;
+  margin: 0 auto;
 }
 /* Responsive Design */
 @media (max-width: 767px) {
@@ -109,5 +135,14 @@
   }
   .secf_bg {
     background-size: contain;
+  }
+  .rent_SubTitle {
+    width: 90%;
+  }
+  .subtable_rent {
+    width: 90%;
+  }
+  .rent_lista-ol {
+    width: 90%;
   }
 }
