@@ -179,6 +179,7 @@
 	background-color: #fff;
 	border: 5px solid #ddd;
 	padding: 10px;
+	text-align: center;
 }
 @media (min-width: 1200px) {
   .navibar {
