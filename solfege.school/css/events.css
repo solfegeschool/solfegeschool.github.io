@@ -173,13 +173,76 @@
 .event_report thead tr th {
 	background-color: #ddd;
 	border: 5px solid #ddd;
-	padding: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+.event_report tbody {
+	display: none;
 }
 .event_report tbody tr td {
 	background-color: #fff;
 	border: 5px solid #ddd;
 	padding: 10px;
 	text-align: center;
+}
+.chevron_double_down::before {
+	content: '';
+	/* background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20"%3E%3Cpolyline points="0,0 20,20 40,0" stroke="black" stroke-width="0"  /%3E%3C/svg%3E'); */
+    background-image: url("../img/chevron_down.png");
+    height: 25px;
+	width: 25px;
+	margin: 5px auto;
+	background-size: cover;
+	display: block;
+}
+.event_history {
+	width: 100%;
+	margin: 20px auto 0;
+	padding: 10px;
+}
+.event_history_title {
+	width: 100%;
+	padding: 10px;
+	background: #ddd;
+	border: 2px solid #c11;
+	font-weight: bold;
+	text-align: center;
+}
+.event_history_down {
+	width: 100%;
+	padding: 0;
+	background: #c11;
+	border: 2px solid #c11;
+	text-align: center;
+	cursor: pointer;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.event_history_down::before {
+	content: '';
+	background-image: url("../img/history_down.png");
+	width: 20px;
+	height: 13px;
+	margin: 0 auto;
+	background-size: cover;
+	display: block;
+}
+.event_history ul {
+	width: 100%;
+	display: none;
+	margin: -2px -5px 0 0;
+}
+.event_history ul li {
+	width: 100%;
+	list-style: none;
+	background-color: #fff;
+	border: 2px solid #c11;
+	padding: 10px;
+	text-align: center;
+}
+.event_history ul li:last-child {
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 @media (min-width: 1200px) {
   .navibar {
@@ -258,9 +321,10 @@
 .event-detail {
 	line-height: 1.4;
 }
+/*
 .event-detail ul {
 	margin-left: 20px;
-}
+}*/
 .profile {
 	background-color: #ededed;
 	color: #2b5f75;
