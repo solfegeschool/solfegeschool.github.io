@@ -245,6 +245,9 @@ a {
 	margin-top: 10px;
 	color: #ffffff;
 }
+.newspapersum a {
+	color: #0adbc2!important;
+}
 .newspaperTitle {
 	color: #ffffff;
 	font-weight: bold;
