@@ -358,15 +358,15 @@ header {
   font-weight: bold;
   padding-top: 40px;
   padding-left: 20px;
-  line-height: 15px; //15px;
-  margin-bottom: 30px;
+  line-height: 34px;
 }
 .jp-title {
   font-family: Meiryo, Hiragino Kaku Gothic Pro, sans-serif;
   font-size: 16px;
   font-weight: normal;
-  padding-left: 20px;
-  //top: -15px;
+  padding-left: 30px;
+  position: relative;
+  top: -15px;
 }
 
 .jp-title a,
@@ -970,6 +970,18 @@ ol ul {
 #bg-teachers {
   position: relative;
   background-color: #E95280;
+  //background-image: url("../img/bgteacher.jpeg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+#bg-assistant_teachers {
+  position: relative;
+  background-color: #00C400;
   //background-image: url("../img/bgteacher.jpeg");
 	background-position: top;
 	background-repeat: no-repeat;
@@ -2413,8 +2425,8 @@ input[type=checkbox]:checked ~ event-item {
 }
 
 @media (min-width: 992px) {
-.en-title  { font-size: 60px; line-height: 16px;}
-.jp-title { font-size: 16px; }
+.en-title  { font-size: 60px; line-height: 45px;}
+.jp-title { top: -35px; top: -25px;}
 .chapter-title { font-size: 16px; }
 .courseType { font-size: 14px; }
 .content-text { font-size: 20px; }
